@@ -1,0 +1,11 @@
+rootProject.name = 'spring'
+include 'bos-dao'
+include 'bos-domain'
+include 'bos-service'
+include 'bos-utils'
+include 'bos-web'
+include 'bos-dao'
+include 'bos-domain'
+include 'bos-service'
+include 'bos-utils'
+

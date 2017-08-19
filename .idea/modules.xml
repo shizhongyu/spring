@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bos-dao.iml" filepath="$PROJECT_DIR$/.idea/modules/bos-dao.iml" group="bos-dao" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_main.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_main.iml" group="bos-dao" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_test.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_test.iml" group="bos-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bos-domain.iml" filepath="$PROJECT_DIR$/.idea/modules/bos-domain.iml" group="bos-domain" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_main.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_main.iml" group="bos-domain" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_test.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_test.iml" group="bos-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bos-service.iml" filepath="$PROJECT_DIR$/.idea/modules/bos-service.iml" group="bos-service" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_main.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_main.iml" group="bos-service" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_test.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_test.iml" group="bos-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bos-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/bos-utils.iml" group="bos-utils" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_main.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_main.iml" group="bos-utils" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_test.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_test.iml" group="bos-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bos-web.iml" filepath="$PROJECT_DIR$/.idea/modules/bos-web.iml" group="bos-web" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_main.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_main.iml" group="bos-web" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_test.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_test.iml" group="bos-web" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/spring.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/spring_main.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/spring_main.iml" group="spring" />
+      <module fileurl="file://$PROJECT_DIR$/../spring/.idea/modules/spring_test.iml" filepath="$PROJECT_DIR$/../spring/.idea/modules/spring_test.iml" group="spring" />
+    </modules>
+  </component>
+</project>

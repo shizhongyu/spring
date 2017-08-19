@@ -8,4 +8,8 @@ include 'bos-dao'
 include 'bos-domain'
 include 'bos-service'
 include 'bos-utils'
+include 'bos-dao'
+include 'bos-domain'
+include 'bos-service'
+include 'bos-utils'
 

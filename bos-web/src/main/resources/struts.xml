@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="truts2" namespace="/" extends="struts-default">
+        <!-- 需要进行权限控制的页面访问 -->
+        <!-- 用户管理 -->
+        <action name="hello">
+            <result>/login.jsp</result>
+        </action>
+    </package>
+</struts>

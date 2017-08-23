@@ -13,13 +13,13 @@ import com.opensymphony.xwork2.ModelDriven;
  */
 public class BaseAction<T> extends ActionSupport implements ModelDriven<T> {
 	public static final String HOME = "home";
-	
+
 	//模型对象
 	protected T model;
 	public T getModel() {
 		return model;
 	}
-	
+
 	//在构造方法中动态获取实体类型，通过反射创建model对象
 	public BaseAction() {
 		ParameterizedType genericSuperclass = (ParameterizedType) this.getClass().getGenericSuperclass();

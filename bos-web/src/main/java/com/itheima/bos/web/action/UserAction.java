@@ -18,10 +18,10 @@ public class UserAction extends BaseAction<User> {
 	public void setCheckcode(String checkcode) {
 		this.checkcode = checkcode;
 	}
-	
+
 	@Autowired
 	private IUserService userService;
-	
+
 	/**
 	 * 用户登录
 	 */
@@ -48,7 +48,7 @@ public class UserAction extends BaseAction<User> {
 			return LOGIN;
 		}
 	}
-	
+
 	/**
 	 * 用户注销
 	 */

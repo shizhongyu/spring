@@ -9,7 +9,7 @@ import com.itheima.bos.dao.IUserDao;
 import com.itheima.bos.domain.User;
 import com.itheima.bos.service.IUserService;
 import com.itheima.bos.utils.MD5Utils;
-//@Service
+@Service
 @Transactional
 public class UserServiceImpl implements IUserService {
 	@Autowired

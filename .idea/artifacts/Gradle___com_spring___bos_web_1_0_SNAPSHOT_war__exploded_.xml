@@ -17,7 +17,6 @@
           <element id="dir-copy" path="$PROJECT_DIR$/../spring/bos-web/out/production/resources" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Gradle: org.apache.struts:struts2-core:2.5.12" />
           <element id="archive" name="com.spring-bos-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="bos-service_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/../spring/bos-service/out/production/resources" />
@@ -53,6 +52,7 @@
             <element id="module-output" name="bos-utils_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/../spring/bos-utils/out/production/resources" />
           </element>
+          <element id="library" level="project" name="Gradle: org.apache.struts:struts2-core:2.5.12" />
           <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" />
           <element id="library" level="project" name="Gradle: org.freemarker:freemarker:2.3.23" />
           <element id="library" level="project" name="Gradle: ognl:ognl:3.1.12" />

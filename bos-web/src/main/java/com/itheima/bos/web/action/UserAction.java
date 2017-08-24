@@ -1,5 +1,6 @@
 package com.itheima.bos.web.action;
 
+import com.itheima.bos.service.impl.UserServiceImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,8 @@ import com.itheima.bos.domain.User;
 import com.itheima.bos.service.IUserService;
 import com.itheima.bos.web.action.base.BaseAction;
 
+import javax.annotation.Resource;
+
 @Controller
 @Scope("prototype")
 public class UserAction extends BaseAction<User> {
@@ -19,7 +22,7 @@ public class UserAction extends BaseAction<User> {
 		this.checkcode = checkcode;
 	}
 
-	@Autowired
+	@Resource(type = UserServiceImpl.class)
 	private IUserService userService;
 
 	/**

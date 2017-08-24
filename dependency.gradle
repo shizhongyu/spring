@@ -1,13 +1,14 @@
 ext.versions = [
-        spring    : '4.3.10.RELEASE',
-        security  : '3.2.5.RELEASE',
-        jackson   : '2.4.3',
-        logback   : '1.1.11',
-        slf4j     : '1.7.24',
-        hibernate : '5.2.10.Final',
-        struts2   : '2.5.12',
-        servlet   : '3.0.1',
-        xwork     : '2.3.31'
+        spring      : '4.3.10.RELEASE',
+        security    : '3.2.5.RELEASE',
+        jackson     : '2.4.3',
+        logback     : '1.1.11',
+        slf4j       : '1.7.24',
+        hibernate   : '5.2.10.Final',
+        struts2     : '2.5.12',
+        servlet     : '3.0.1',
+        xwork       : '2.3.31',
+        springframe : '2.5.6',
 ]
 ext.libraries = [
         "servlet-api"            : "javax.servlet:javax.servlet-api:3.0.1",
@@ -55,8 +56,13 @@ ext.libraries = [
         "spring-security-config" : "org.springframework.security:spring-security-config:${versions.security}",
         "spring-security-taglibs": "org.springframework.security:spring-security-taglibs:${versions.security}",
 
+        "spring"                 : "org.springframework:spring:${versions.springframe}",
+
         //struts2
         "struts-core"            : "org.apache.struts:struts2-core:${versions.struts2}",
+        "struts-spring"          : "org.apache.struts:struts2-spring-plugin:${versions.struts2}",
+
+
 
         // 忽略common log，使用slf4j代替
         //

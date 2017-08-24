@@ -9,10 +9,13 @@ import com.itheima.bos.dao.IUserDao;
 import com.itheima.bos.domain.User;
 import com.itheima.bos.service.IUserService;
 import com.itheima.bos.utils.MD5Utils;
+
+import javax.annotation.Resource;
+
 @Service
 @Transactional
 public class UserServiceImpl implements IUserService {
-	@Autowired
+	@Resource(type = UserServiceImpl.class)
 	private IUserDao userDao;
 	/***
 	 * 用户登录

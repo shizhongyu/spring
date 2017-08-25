@@ -26,8 +26,6 @@ public class UserServiceImpl implements IUserService {
 		return userDao.findUserByUsernameAndPassword(user.getUsername(),password);
 	}
 
-	//	@Resource(type = UserServiceImpl.class)
 	@Autowired
-	@Qualifier("UserDaoImpl")
 	private  IUserDao userDao;
 }

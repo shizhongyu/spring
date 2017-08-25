@@ -23,9 +23,7 @@ public class UserAction extends BaseAction<User> {
 		this.checkcode = checkcode;
 	}
 
-//	@Autowired
-//	@Qualifier("UserServiceImpl")
-	@Resource(type = UserServiceImpl.class)
+	@Autowired
 	private IUserService userService;
 
 	/**

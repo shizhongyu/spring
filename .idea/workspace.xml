@@ -7,124 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f25a9ce1-aca3-44b2-bd6a-2bfbec3c37bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__c3p0_c3p0_0_9_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__javax_annotation_jsr250_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__javax_el_el_api_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__javax_el_javax_el_api_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__javax_enterprise_cdi_api_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__mysql_mysql_connector_java_6_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_2_6_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_context_support_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_core_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_orm_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_web_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/log4j.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_2_10_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_2_5_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_context_support_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_core_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_orm_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_oxm_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_web_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_dao_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_dao_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_service_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_service_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_web_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_web_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../spring/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../spring/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/misc.xml" afterPath="$PROJECT_DIR$/../spring/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/spring_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/spring_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/spring_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/spring_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-dao/build.gradle" afterPath="$PROJECT_DIR$/../spring/bos-dao/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java" afterPath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/IBaseDao.java" afterPath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/IBaseDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-domain/build.gradle" afterPath="$PROJECT_DIR$/../spring/bos-domain/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-service/build.gradle" afterPath="$PROJECT_DIR$/../spring/bos-service/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IUserService.java" afterPath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IUserService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-utils/build.gradle" afterPath="$PROJECT_DIR$/../spring/bos-utils/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/build.gradle" afterPath="$PROJECT_DIR$/../spring/bos-web/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/easyloader.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/easyloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/ext/jquery.portal.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/ext/jquery.portal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.accordion.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.accordion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.calendar.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combo.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combobox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combobox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combogrid.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combogrid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combotree.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combotree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datagrid.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datagrid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datebox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datebox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datetimebox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datetimebox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.dialog.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.draggable.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.draggable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.droppable.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.droppable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.form.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.layout.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.linkbutton.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.linkbutton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.menu.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.menubutton.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.menubutton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.messager.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.messager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.numberbox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.numberbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.numberspinner.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.numberspinner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.pagination.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.panel.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.panel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.progressbar.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.progressbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.propertygrid.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.propertygrid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.resizable.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.resizable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.searchbox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.searchbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.slider.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.spinner.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.spinner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.splitbutton.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.splitbutton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.tabs.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.timespinner.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.timespinner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.tree.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.tree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.treegrid.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.treegrid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.validatebox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.validatebox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.window.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.window.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/easyloader.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/easyloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.calendar.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.menu.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.parser.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.propertygrid.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.propertygrid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/jquery-1.8.3.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/jquery-1.8.3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/ztree/jquery.ztree.all-3.5.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/ztree/jquery.ztree.all-3.5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/build.gradle" afterPath="$PROJECT_DIR$/../spring/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/dependency.gradle" afterPath="$PROJECT_DIR$/../spring/dependency.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_context_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_context_4_3_9_RELEASE.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../spring/out/" />
     <ignored path="$PROJECT_DIR$/../spring/.gradle/" />
@@ -200,50 +86,8 @@
       <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dependency.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/dependency.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="33" column="88" lean-forward="false" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            <state relative-caret-position="175">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,54 +98,63 @@
       <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java">
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="64" />
+            <state relative-caret-position="204">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding>
-                <element signature="e#1063#1084#0" expanded="true" />
-                <element signature="e#1126#1143#0" expanded="true" />
-                <element signature="e#1182#1196#0" expanded="true" />
-                <element signature="e#1239#1257#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/build.gradle">
+      <file leaf-file-name="AopUtils.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.9.RELEASE/599a12710a191a634800b848a8858dc033ea44b0/spring-aop-4.3.9.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="74" />
+            <state relative-caret-position="114">
+              <caret line="337" column="0" lean-forward="false" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/build.gradle">
+      <file leaf-file-name="OgnlRuntime.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.1.12/35e11973363a5f0548e617c615b41194d45b3308/ognl-3.1.12-sources.jar!/ognl/OgnlRuntime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="29" column="74" lean-forward="false" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+            <state relative-caret-position="318">
+              <caret line="878" column="0" lean-forward="false" selection-start-line="878" selection-start-column="0" selection-end-line="878" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1451,9 +1304,9 @@
         <option value="$PROJECT_DIR$/../spring/bos-dao/build.gradle" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/../spring/bos-web/build.gradle" />
-        <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -1884,6 +1737,44 @@
               <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -2117,7 +2008,7 @@
       <workItem from="1503584820282" duration="2567000" />
       <workItem from="1503628010337" duration="3292000" />
       <workItem from="1503632644212" duration="9648000" />
-      <workItem from="1503646145710" duration="1444000" />
+      <workItem from="1503646145710" duration="2225000" />
     </task>
     <task id="LOCAL-00001" summary="ssh frame body.">
       <created>1503114290499</created>
@@ -2161,11 +2052,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503567333011</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="  &lt;context:component-scan base-package=&quot;com.itheima.bos.web&quot;/&gt;&#10;  &lt;context:component-scan base-package=&quot;com.itheima.bos&quot;/&gt;写详细,不会自动扫描子包.">
+      <created>1503647731060</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503647731060</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113568000" />
+    <option name="totallyTimeSpent" value="114349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2202,7 +2100,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36084142" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626325" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26626325" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10741301" sideWeight="0.50647247" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36913767" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2263,11 +2161,32 @@
     <MESSAGE value="ssh frame body." />
     <MESSAGE value="ssh frame body success." />
     <MESSAGE value="struts2 hello world success." />
-    <option name="LAST_COMMIT_MESSAGE" value="struts2 hello world success." />
+    <MESSAGE value="  &lt;context:component-scan base-package=&quot;com.itheima.bos.web&quot;/&gt;&#10;  &lt;context:component-scan base-package=&quot;com.itheima.bos&quot;/&gt;写详细,不会自动扫描子包." />
+    <option name="LAST_COMMIT_MESSAGE" value="  &lt;context:component-scan base-package=&quot;com.itheima.bos.web&quot;/&gt;&#10;  &lt;context:component-scan base-package=&quot;com.itheima.bos&quot;/&gt;写详细,不会自动扫描子包." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2285,7 +2204,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../spring/src/main/webapp/css/style.css" />
     <entry file="file://$PROJECT_DIR$/../spring/src/main/webapp/login.jsp" />
     <entry file="file://$PROJECT_DIR$/../spring/src/main/webapp/easyui/04-ztree.jsp" />
     <entry file="file://$PROJECT_DIR$/../spring/src/main/resources/applicationContext.xml" />
@@ -2385,13 +2303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.1.12/35e11973363a5f0548e617c615b41194d45b3308/ognl-3.1.12-sources.jar!/ognl/OgnlRuntime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="872" column="0" lean-forward="false" selection-start-line="872" selection-start-column="0" selection-end-line="872" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2532,26 +2443,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/dependency.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="36" column="56" lean-forward="false" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="54" column="47" lean-forward="false" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+          <folding>
+            <element signature="e#1063#1084#0" expanded="true" />
+            <element signature="e#1126#1143#0" expanded="true" />
+            <element signature="e#1182#1196#0" expanded="true" />
+            <element signature="e#1239#1257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.1.12/35e11973363a5f0548e617c615b41194d45b3308/ognl-3.1.12-sources.jar!/ognl/OgnlRuntime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="878" column="0" lean-forward="false" selection-start-line="878" selection-start-column="0" selection-end-line="878" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java">
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="175">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2560,39 +2492,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        <state relative-caret-position="124">
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java">
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/dependency.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.9.RELEASE/599a12710a191a634800b848a8858dc033ea44b0/spring-aop-4.3.9.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="33" column="88" lean-forward="false" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
+        <state relative-caret-position="114">
+          <caret line="337" column="0" lean-forward="false" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="64" />
+        <state relative-caret-position="204">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
-            <element signature="e#1063#1084#0" expanded="true" />
-            <element signature="e#1126#1143#0" expanded="true" />
-            <element signature="e#1182#1196#0" expanded="true" />
-            <element signature="e#1239#1257#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

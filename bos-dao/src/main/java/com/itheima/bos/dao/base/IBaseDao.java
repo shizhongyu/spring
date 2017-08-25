@@ -10,9 +10,9 @@ import java.util.List;
  * @param <T>
  */
 public interface IBaseDao<T> {
-    public void save(T entity);
-	public void delete(T entity);
-	public void update(T entity);
-	public T findById(Serializable id);
-	public List<T> findAll();
+    void save(T entity);
+	void delete(T entity);
+	void update(T entity);
+	T findById(Serializable id);
+	List<T> findAll();
 }

@@ -27,8 +27,8 @@ _4.top=_3.top;
 }
 }
 $(_2).panel("resize",_4);
-};
-function _5(_6,_7){
+}
+    function _5(_6,_7){
 var _8=$.data(_6,"window");
 if(_7){
 if(_7.left!=null){
@@ -42,8 +42,8 @@ $(_6).panel("move",_8.options);
 if(_8.shadow){
 _8.shadow.css({left:_8.options.left,top:_8.options.top});
 }
-};
-function _9(_a,_b){
+}
+    function _9(_a,_b){
 var _c=$.data(_a,"window");
 var _d=_c.options;
 var _e=_d.width;
@@ -59,8 +59,8 @@ _d.left=($(window)._outerWidth()-_e)/2+$(document).scrollLeft();
 if(_b){
 _5(_a);
 }
-};
-function _10(_11,_12){
+}
+    function _10(_11,_12){
 var _13=$.data(_11,"window");
 var _14=_13.options;
 var _15=_14.height;
@@ -76,8 +76,8 @@ _14.top=($(window)._outerHeight()-_15)/2+$(document).scrollTop();
 if(_12){
 _5(_11);
 }
-};
-function _17(_18){
+}
+    function _17(_18){
 var _19=$.data(_18,"window");
 var win=$(_18).panel($.extend({},_19.options,{border:false,doSize:true,closed:true,cls:"window",headerCls:"window-header",bodyCls:"window-body "+(_19.options.noheader?"window-body-noheader":""),onBeforeDestroy:function(){
 if(_19.options.onBeforeDestroy.call(_18)==false){
@@ -159,8 +159,8 @@ _5(_18);
 if(_19.options.closed==false){
 win.window("open");
 }
-};
-function _1e(_1f){
+}
+    function _1e(_1f){
 var _20=$.data(_1f,"window");
 _20.window.draggable({handle:">div.panel-header>div.panel-title",disabled:_20.options.draggable==false,onStartDrag:function(e){
 if(_20.mask){
@@ -213,15 +213,15 @@ _20.pmask=null;
 _20.proxy.remove();
 _20.proxy=null;
 }});
-};
-function _1d(){
+}
+    function _1d(){
 if(document.compatMode=="BackCompat"){
 return {width:Math.max(document.body.scrollWidth,document.body.clientWidth),height:Math.max(document.body.scrollHeight,document.body.clientHeight)};
 }else{
 return {width:Math.max(document.documentElement.scrollWidth,document.documentElement.clientWidth),height:Math.max(document.documentElement.scrollHeight,document.documentElement.clientHeight)};
 }
-};
-$(window).resize(function(){
+}
+    $(window).resize(function(){
 $("body>div.window-mask").css({width:$(window)._outerWidth(),height:$(window)._outerHeight()});
 setTimeout(function(){
 $("body>div.window-mask").css({width:_1d().width,height:_1d().height});

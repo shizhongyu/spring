@@ -147,7 +147,7 @@
 		} else {
 			return this.each(function(){$(this).scrollLeft(left)});
 		}
-	}
+	};
 	
 	$.fn._propAttr = $.fn.prop || $.fn.attr;
 	

@@ -12,8 +12,8 @@
 (function($){
 function _1(_2){
 $(_2).addClass("validatebox-text");
-};
-function _3(_4){
+}
+    function _3(_4){
 var _5=$.data(_4,"validatebox");
 _5.validating=false;
 var _6=_5.tip;
@@ -22,8 +22,8 @@ _6.remove();
 }
 $(_4).unbind();
 $(_4).remove();
-};
-function _7(_8){
+}
+    function _7(_8){
 var _9=$(_8);
 var _a=$.data(_8,"validatebox");
 _9.unbind(".validatebox").bind("focus.validatebox",function(){
@@ -61,8 +61,8 @@ if(!_a.validating){
 _b(_8);
 }
 });
-};
-function _c(_d){
+}
+    function _c(_d){
 var _e=$.data(_d,"validatebox").message;
 var _f=$.data(_d,"validatebox").tip;
 if(!_f){
@@ -71,8 +71,8 @@ $.data(_d,"validatebox").tip=_f;
 }
 _f.find(".validatebox-tip-content").html(_e);
 _10(_d);
-};
-function _10(_11){
+}
+    function _10(_11){
 var _12=$.data(_11,"validatebox");
 if(!_12){
 return;
@@ -93,15 +93,15 @@ tip.removeClass("validatebox-tip-left");
 }
 _13.css("top",(_14._outerHeight()-_13._outerHeight())/2);
 }
-};
-function _b(_15){
+}
+    function _b(_15){
 var tip=$.data(_15,"validatebox").tip;
 if(tip){
 tip.remove();
 $.data(_15,"validatebox").tip=null;
 }
-};
-function _16(_17){
+}
+    function _16(_17){
 var _18=$.data(_17,"validatebox");
 var _19=_18.options;
 var tip=_18.tip;
@@ -109,8 +109,8 @@ var box=$(_17);
 var _1a=box.val();
 function _1b(msg){
 _18.message=msg;
-};
-function _1c(_1d){
+}
+    function _1c(_1d){
 var _1e=/([a-zA-Z_]+)(.*)/.exec(_1d);
 var _1f=_19.rules[_1e[1]];
 if(_1f&&_1a){
@@ -131,8 +131,8 @@ return false;
 }
 }
 return true;
-};
-if(_19.required){
+}
+    if(_19.required){
 if(_1a==""){
 box.addClass("validatebox-invalid");
 _1b(_19.missingMessage);
@@ -158,8 +158,8 @@ return false;
 box.removeClass("validatebox-invalid");
 _b(_17);
 return true;
-};
-$.fn.validatebox=function(_22,_23){
+}
+    $.fn.validatebox=function(_22,_23){
 if(typeof _22=="string"){
 return $.fn.validatebox.methods[_22](this,_23);
 }

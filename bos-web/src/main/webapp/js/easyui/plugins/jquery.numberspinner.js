@@ -14,8 +14,8 @@ function _1(_2){
 $(_2).addClass("numberspinner-f");
 var _3=$.data(_2,"numberspinner").options;
 $(_2).spinner(_3).numberbox(_3);
-};
-function _4(_5,_6){
+}
+    function _4(_5,_6){
 var _7=$.data(_5,"numberspinner").options;
 var v=parseFloat($(_5).numberbox("getValue")||_7.value)||0;
 if(_6==true){
@@ -24,8 +24,8 @@ v-=_7.increment;
 v+=_7.increment;
 }
 $(_5).numberbox("setValue",v);
-};
-$.fn.numberspinner=function(_8,_9){
+}
+    $.fn.numberspinner=function(_8,_9){
 if(typeof _8=="string"){
 var _a=$.fn.numberspinner.methods[_8];
 if(_a){

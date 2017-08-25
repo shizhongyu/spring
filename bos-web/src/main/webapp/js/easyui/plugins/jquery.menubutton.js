@@ -23,8 +23,8 @@ _4.removeClass((_3.plain==true)?"m-btn-plain-active":"m-btn-active");
 }});
 }
 _5(_2,_3.disabled);
-};
-function _5(_6,_7){
+}
+    function _5(_6,_7){
 var _8=$.data(_6,"menubutton").options;
 _8.disabled=_7;
 var _9=$(_6);
@@ -57,9 +57,9 @@ return;
 $("body>div.menu-top").menu("hide");
 $(_8.menu).menu("show",{alignTo:_9});
 _9.blur();
-};
-};
-$.fn.menubutton=function(_c,_d){
+}
+}
+    $.fn.menubutton=function(_c,_d){
 if(typeof _c=="string"){
 return $.fn.menubutton.methods[_c](this,_d);
 }

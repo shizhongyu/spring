@@ -4,6 +4,6 @@ import com.itheima.bos.domain.User;
 
 public interface IUserService {
 
-	public User login(User model);
+	User login(User model);
 
 }

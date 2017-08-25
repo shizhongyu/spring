@@ -7,19 +7,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f25a9ce1-aca3-44b2-bd6a-2bfbec3c37bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_apache_struts_struts2_convention_plugin_2_5_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_apache_struts_struts2_spring_plugin_2_5_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_ow2_asm_asm_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_ow2_asm_asm_commons_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_ow2_asm_asm_tree_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_2_5_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/kotlinc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__c3p0_c3p0_0_9_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__javax_annotation_jsr250_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__javax_el_el_api_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__javax_el_javax_el_api_3_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__javax_enterprise_cdi_api_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__mysql_mysql_connector_java_6_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_2_6_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_context_support_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_core_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_orm_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_web_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/log4j.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_2_10_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_2_5_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_context_support_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_core_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_orm_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_oxm_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_web_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_dao_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_dao_1_0_SNAPSHOT_war__exploded_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_service_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_service_1_0_SNAPSHOT_war__exploded_.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_web_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/../spring/.idea/artifacts/Gradle___com_spring___bos_web_1_0_SNAPSHOT_war__exploded_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../spring/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../spring/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/misc.xml" afterPath="$PROJECT_DIR$/../spring/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-dao/bos-dao_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-service/bos-service_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-utils/bos-utils_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-web/bos-web_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/spring_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/spring_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/spring_test.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/spring_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-dao/build.gradle" afterPath="$PROJECT_DIR$/../spring/bos-dao/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java" afterPath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/IBaseDao.java" afterPath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/IBaseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-domain/build.gradle" afterPath="$PROJECT_DIR$/../spring/bos-domain/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-service/build.gradle" afterPath="$PROJECT_DIR$/../spring/bos-service/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IUserService.java" afterPath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-utils/build.gradle" afterPath="$PROJECT_DIR$/../spring/bos-utils/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/build.gradle" afterPath="$PROJECT_DIR$/../spring/bos-web/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/easyloader.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/easyloader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/ext/jquery.portal.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/ext/jquery.portal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.accordion.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.accordion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.calendar.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combo.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combobox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combobox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combogrid.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combogrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combotree.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.combotree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datagrid.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datagrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datebox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datebox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datetimebox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.datetimebox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.dialog.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.draggable.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.draggable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.droppable.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.droppable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.form.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.layout.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.linkbutton.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.linkbutton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.menu.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.menubutton.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.menubutton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.messager.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.messager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.numberbox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.numberbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.numberspinner.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.numberspinner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.pagination.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.pagination.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.panel.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.panel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.progressbar.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.progressbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.propertygrid.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.propertygrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.resizable.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.resizable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.searchbox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.searchbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.slider.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.spinner.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.spinner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.splitbutton.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.splitbutton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.tabs.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.timespinner.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.timespinner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.tree.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.treegrid.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.treegrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.validatebox.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.validatebox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.window.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/plugins/jquery.window.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/easyloader.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/easyloader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.calendar.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.menu.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.parser.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.propertygrid.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/easyui/src/jquery.propertygrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/jquery-1.8.3.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/jquery-1.8.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/ztree/jquery.ztree.all-3.5.js" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/js/ztree/jquery.ztree.all-3.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/build.gradle" afterPath="$PROJECT_DIR$/../spring/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/dependency.gradle" afterPath="$PROJECT_DIR$/../spring/dependency.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_context_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Gradle__org_springframework_spring_context_4_3_9_RELEASE.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../spring/out/" />
     <ignored path="$PROJECT_DIR$/../spring/.gradle/" />
@@ -54,7 +159,12 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="ExternalProjectsData">
@@ -75,32 +185,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring" type="f1a62948:ProjectNode" />
-                <item name=":bos-web" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring" type="f1a62948:ProjectNode" />
-                <item name=":bos-web" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring" type="f1a62948:ProjectNode" />
-                <item name=":bos-web" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring" type="f1a62948:ProjectNode" />
-                <item name=":bos-web" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -108,33 +192,36 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dependency.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/dependency.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../spring/.idea/modules/bos-web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dependency.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/dependency.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="33" column="88" lean-forward="false" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,24 +229,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/base/BaseAction.java">
+      <file leaf-file-name="IUserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/struts.xml">
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -168,8 +242,55 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="383">
+              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="64" />
+              <folding>
+                <element signature="e#1063#1084#0" expanded="true" />
+                <element signature="e#1126#1143#0" expanded="true" />
+                <element signature="e#1182#1196#0" expanded="true" />
+                <element signature="e#1239#1257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -178,28 +299,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spring/bos-web/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="298">
+              <caret line="29" column="74" lean-forward="false" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -224,6 +325,7 @@
       <find>tx</find>
       <find>@Autowired</find>
       <find>IUserDao</find>
+      <find>el</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -233,12 +335,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$/../spring" value="H:\Android\gradle-4.1" />
+        <entry key="$PROJECT_DIR$/../spring" value="H:\Android\gradle-3.3-all\gradle-3.3" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$/../spring" value="4.1" />
+        <entry key="$PROJECT_DIR$/../spring" value="3.3" />
       </map>
     </option>
     <option name="availableProjects">
@@ -317,7 +419,7 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../spring" />
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
@@ -352,7 +454,7 @@
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build." />
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../spring" />
                 <option name="name" value="init" />
               </ExternalTaskPojo>
@@ -1113,14 +1215,14 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../spring" value="12027578252703" />
-        <entry key="$PROJECT_DIR$/../spring/bos-dao/build.gradle" value="2307441140" />
-        <entry key="$PROJECT_DIR$/../spring/bos-domain/build.gradle" value="2013735473" />
-        <entry key="$PROJECT_DIR$/../spring/bos-service/build.gradle" value="3713622807" />
-        <entry key="$PROJECT_DIR$/../spring/bos-utils/build.gradle" value="2013735473" />
-        <entry key="$PROJECT_DIR$/../spring/bos-web/build.gradle" value="3353942655" />
-        <entry key="$PROJECT_DIR$/../spring/build.gradle" value="2489642306" />
-        <entry key="$PROJECT_DIR$/../spring/dependency.gradle" value="786232181" />
+        <entry key="$PROJECT_DIR$/../spring" value="12028342532628" />
+        <entry key="$PROJECT_DIR$/../spring/bos-dao/build.gradle" value="1273296075" />
+        <entry key="$PROJECT_DIR$/../spring/bos-domain/build.gradle" value="540057301" />
+        <entry key="$PROJECT_DIR$/../spring/bos-service/build.gradle" value="1092105919" />
+        <entry key="$PROJECT_DIR$/../spring/bos-utils/build.gradle" value="540057301" />
+        <entry key="$PROJECT_DIR$/../spring/bos-web/build.gradle" value="3695727496" />
+        <entry key="$PROJECT_DIR$/../spring/build.gradle" value="3428014502" />
+        <entry key="$PROJECT_DIR$/../spring/dependency.gradle" value="4273889538" />
         <entry key="$PROJECT_DIR$/../spring/settings.gradle" value="1497717094" />
       </map>
     </option>
@@ -1178,138 +1280,141 @@
               <option name="name" value="spring" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/announce" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/antlr" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/base-services" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/base-services-groovy" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/build-cache-http" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/build-comparison" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/build-init" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/cli" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/code-quality" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/composite-builds" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/core" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/dependency-management" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/diagnostics" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/ear" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/ide" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/ide-native" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/ide-play" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/installation-beacon" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/internal-android-performance-testing" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/internal-integ-testing" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/internal-performance-testing" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/internal-testing" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/ivy" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/jacoco" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/javascript" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/jvm-services" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/language-groovy" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/language-java" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/language-jvm" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/language-native" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/language-scala" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/launcher" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/logging" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/maven" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/messaging" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/model-core" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/model-groovy" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/native" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/osgi" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/platform-base" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/platform-jvm" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/platform-native" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/platform-play" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/plugin-development" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/plugin-use" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/plugins" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/process-services" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/publish" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/reporting" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/resources" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/resources-http" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/resources-s3" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/resources-sftp" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/scala" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/signing" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/test-kit" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/testing-base" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/testing-jvm" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/testing-native" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/tooling-api" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/tooling-api-builders" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/workers" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/src/wrapper" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/ant-1.9.6.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-base-services-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-base-services-groovy-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-cli-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-core-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-docs-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-installation-beacon-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-jvm-services-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-kotlin-dsl-0.10.3.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-kotlin-dsl-compiler-plugin-0.10.3.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-kotlin-dsl-tooling-builders-0.10.3.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-kotlin-dsl-tooling-models-0.10.3.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-launcher-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-logging-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-messaging-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-model-core-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-model-groovy-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-native-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-process-services-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-resources-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-runtime-api-info-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-tooling-api-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/gradle-wrapper-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/groovy-all-2.4.11.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-announce-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-antlr-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-build-cache-http-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-build-comparison-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-build-init-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-code-quality-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-composite-builds-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-dependency-management-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-diagnostics-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-ear-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-ide-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-ide-native-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-ide-play-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-ivy-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-jacoco-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-javascript-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-language-groovy-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-language-java-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-language-jvm-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-language-native-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-language-scala-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-maven-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-osgi-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-platform-base-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-platform-jvm-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-platform-native-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-platform-play-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-plugin-development-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-plugin-use-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-plugins-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-publish-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-reporting-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-resources-http-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-resources-s3-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-resources-sftp-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-scala-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-signing-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-test-kit-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-testing-base-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-testing-jvm-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-testing-native-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-tooling-api-builders-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/gradle-workers-4.1.jar" />
-                  <option value="$PROJECT_DIR$/../Android/gradle-4.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/announce" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/antlr" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/base-services" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/base-services-groovy" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/build-cache-http" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/build-comparison" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/build-init" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/cli" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/code-quality" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/composite-builds" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/core" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/dependency-management" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/diagnostics" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/ear" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/ide" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/ide-native" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/ide-play" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/installation-beacon" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/internal-android-performance-testing" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/internal-integ-testing" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/internal-performance-testing" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/internal-testing" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/ivy" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/jacoco" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/javascript" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/jetty" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/jvm-services" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/language-groovy" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/language-java" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/language-jvm" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/language-native" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/language-scala" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/launcher" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/logging" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/maven" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/messaging" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/model-core" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/model-groovy" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/native" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/open-api" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/osgi" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/platform-base" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/platform-jvm" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/platform-native" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/platform-play" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/plugin-development" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/plugin-use" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/plugins" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/process-services" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/publish" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/reporting" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/resources" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/resources-http" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/resources-s3" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/resources-sftp" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/scala" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/signing" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/test-kit" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/testing-base" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/testing-jvm" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/testing-native" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/tooling-api" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/tooling-api-builders" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/ui" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/workers" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/src/wrapper" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/ant-1.9.6.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-base-services-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-base-services-groovy-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-cli-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-core-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-docs-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-installation-beacon-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-jvm-services-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-launcher-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-logging-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-messaging-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-model-core-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-model-groovy-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-native-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-open-api-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-process-services-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-resources-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-script-kotlin-0.5.1.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-tooling-api-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-ui-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-version-info-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/gradle-wrapper-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/groovy-all-2.4.7.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-announce-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-antlr-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-build-cache-http-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-build-comparison-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-build-init-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-code-quality-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-composite-builds-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-dependency-management-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-diagnostics-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-ear-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-ide-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-ide-native-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-ide-play-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-ivy-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-jacoco-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-javascript-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-jetty-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-language-groovy-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-language-java-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-language-jvm-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-language-native-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-language-scala-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-maven-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-osgi-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-platform-base-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-platform-jvm-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-platform-native-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-platform-play-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-plugin-development-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-plugin-use-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-plugins-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-publish-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-reporting-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-resources-http-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-resources-s3-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-resources-sftp-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-scala-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-signing-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-test-kit-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-testing-base-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-testing-jvm-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-testing-native-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-tooling-api-builders-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/gradle-workers-3.3.jar" />
+                  <option value="$PROJECT_DIR$/../Android/gradle-3.3-all/gradle-3.3/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/../spring/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/../spring/buildSrc/src/main/groovy" />
                 </list>
@@ -1330,24 +1435,25 @@
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/../spring/bos-utils/build.gradle" />
-        <option value="$PROJECT_DIR$/../spring/bos-domain/build.gradle" />
-        <option value="$PROJECT_DIR$/../spring/bos-service/build.gradle" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/base/BaseAction.java" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/spring-mvc-config.xml" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/spring-config.xml" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/struts.xml" />
-        <option value="$PROJECT_DIR$/../spring/build.gradle" />
         <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/../spring/bos-web/build/libs/exploded/bos-web-1.0-SNAPSHOT.war/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../spring/dependency.gradle" />
-        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java" />
-        <option value="$PROJECT_DIR$/../spring/bos-dao/build.gradle" />
-        <option value="$PROJECT_DIR$/../spring/bos-web/build.gradle" />
-        <option value="$PROJECT_DIR$/../spring/.idea/modules/bos-web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../spring/build.gradle" />
+        <option value="$PROJECT_DIR$/../spring/bos-domain/build.gradle" />
+        <option value="$PROJECT_DIR$/../spring/bos-service/build.gradle" />
+        <option value="$PROJECT_DIR$/../spring/bos-utils/build.gradle" />
+        <option value="$PROJECT_DIR$/../spring/.idea/modules/bos-web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../spring/dependency.gradle" />
+        <option value="$PROJECT_DIR$/../spring/bos-dao/build.gradle" />
+        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/../spring/bos-web/build.gradle" />
+        <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -1365,10 +1471,281 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="221" />
-    <option name="y" value="93" />
-    <option name="width" value="962" />
+    <option name="x" value="135" />
+    <option name="y" value="267" />
+    <option name="width" value="1190" />
     <option name="height" value="698" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Accessibility</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>J2ME SupportJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring DataSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -1389,134 +1766,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded" type="462c0819:PsiDirectoryNode" />
-              <item name="bos-web-1.0-SNAPSHOT.war" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded" type="462c0819:PsiDirectoryNode" />
-              <item name="bos-web-1.0-SNAPSHOT.war" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -1533,6 +1783,114 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1543,15 +1901,20 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44294605" />
-    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;web.xml&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;web.&#9;FILE&#9;file://H:/spring/bos-web/build/libs/exploded/bos-web-1.0-SNAPSHOT.war/WEB-INF/web.xml&#10;we&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;web.xm&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;transactionManager&#9;PSI&#9;JAVA://org.springframework.orm.hibernate3.LocalTransactionManagerLookup#transactionManager&#10;login&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/login.jsp&#10;stru&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;w&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;web.x&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;user&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/User.java&#10;HttpServletRequest&#9;PSI&#9;JAVA://org.apache.struts2.components.ComponentUrlProvider#httpServletRequest&#10;.java&#9;FILE&#9;file://H:/spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java" />
+    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java&#10;web.&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;web&#9;FILE&#9;file://H:/spring/bos-web/build/libs/exploded/bos-web-1.0-SNAPSHOT.war/WEB-INF/web.xml&#10;web.xml&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;we&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;web.xm&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;transactionManager&#9;PSI&#9;JAVA://org.springframework.orm.hibernate3.LocalTransactionManagerLookup#transactionManager&#10;login&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/login.jsp&#10;stru&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;w&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;web.x&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;HttpServletRequest&#9;PSI&#9;JAVA://org.apache.struts2.components.ComponentUrlProvider#httpServletRequest&#10;.java&#9;FILE&#9;file://H:/spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\spring\bos-web\src\main\webapp\WEB-INF" />
       <recent name="H:\spring\bos-web\src\main\resources" />
+      <recent name="H:\spring\bos-web\src\main\webapp\WEB-INF" />
       <recent name="H:\spring\bos-dao\libs" />
       <recent name="H:\spring\bos-domain\libs" />
       <recent name="H:\spring\bos-web\libs" />
@@ -1727,7 +2090,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\zhongyu\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1748,7 +2111,13 @@
       <workItem from="1503400878624" duration="10121000" />
       <workItem from="1503454779372" duration="16513000" />
       <workItem from="1503490092943" duration="6078000" />
-      <workItem from="1503542779562" duration="16307000" />
+      <workItem from="1503542779562" duration="17429000" />
+      <workItem from="1503572653009" duration="1955000" />
+      <workItem from="1503582201018" duration="2549000" />
+      <workItem from="1503584820282" duration="2567000" />
+      <workItem from="1503628010337" duration="3292000" />
+      <workItem from="1503632644212" duration="9648000" />
+      <workItem from="1503646145710" duration="1444000" />
     </task>
     <task id="LOCAL-00001" summary="ssh frame body.">
       <created>1503114290499</created>
@@ -1785,11 +2154,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503566265342</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="struts2 hello world success.">
+      <created>1503567333011</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503567333011</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90991000" />
+    <option name="totallyTimeSpent" value="113568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1808,29 +2184,30 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40291262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4579288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.828479" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36084142" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.98058254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22390318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626325" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10741301" sideWeight="0.50647247" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2118003" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36913767" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10741301" sideWeight="0.50647247" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1894,11 +2271,20 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+        <item name="spring" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../spring/src/main/resources/struts.xml" />
-    <entry file="file://$PROJECT_DIR$/../spring/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/../spring/src/main/resources/db.properties" />
-    <entry file="file://$PROJECT_DIR$/../spring/src/main/webapp/easyui/03-tabs.jsp" />
     <entry file="file://$PROJECT_DIR$/../spring/src/main/webapp/css/style.css" />
     <entry file="file://$PROJECT_DIR$/../spring/src/main/webapp/login.jsp" />
     <entry file="file://$PROJECT_DIR$/../spring/src/main/webapp/easyui/04-ztree.jsp" />
@@ -1941,7 +2327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1959,31 +2344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-utils/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/IBaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1995,7 +2355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2015,19 +2374,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/spring-config.xml" />
     <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/spring-mvc-config.xml" />
-    <entry file="file://$PROJECT_DIR$/../spring/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2038,26 +2388,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.1.12/35e11973363a5f0548e617c615b41194d45b3308/ognl-3.1.12-sources.jar!/ognl/OgnlRuntime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="872" column="0" lean-forward="false" selection-start-line="872" selection-start-column="0" selection-end-line="872" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/base/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/build/libs/exploded/bos-web-1.0-SNAPSHOT.war/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-domain/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-service/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-utils/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/.idea/modules/bos-web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.9.RELEASE/d9b39cf6b40a184770bbba169cc34474aa2d034f/spring-beans-4.3.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="525" column="0" lean-forward="false" selection-start-line="525" selection-start-column="0" selection-end-line="525" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dffd9b99-dc05-4e37-b5df-0ead3b09392f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/IBaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="29" column="74" lean-forward="false" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -2065,125 +2535,65 @@
     <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.1.12/35e11973363a5f0548e617c615b41194d45b3308/ognl-3.1.12-sources.jar!/ognl/OgnlRuntime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="872" column="0" lean-forward="false" selection-start-line="872" selection-start-column="0" selection-end-line="872" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="78" lean-forward="false" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        <state relative-caret-position="68">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/struts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/dependency.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/build/libs/exploded/bos-web-1.0-SNAPSHOT.war/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/base/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/build.gradle">
+    <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="383">
+          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/dependency.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="33" column="88" lean-forward="false" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/.idea/modules/bos-web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="349">
+          <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="64" />
+          <folding>
+            <element signature="e#1063#1084#0" expanded="true" />
+            <element signature="e#1126#1143#0" expanded="true" />
+            <element signature="e#1182#1196#0" expanded="true" />
+            <element signature="e#1239#1257#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2242,7 +2652,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Struts 2|Web Gradle : bos-web-1.0-SNAPSHOT.war|bos-web_main|bos-web</last-edited>
+          <last-edited>Spring|bos-web_main|bos-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2266,7 +2676,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: org.apache.struts:struts2-core:2.5.12</last-edited>
+          <last-edited>Gradle: mysql:mysql-connector-java:6.0.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

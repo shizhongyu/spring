@@ -78,7 +78,7 @@ input[type=password] {
 							<input id="loginform:codeInput" class="loginFormTdIpt" type="text"
 								name="checkcode" title="请输入验证码" />
 							<img id="loginform:vCode" src="${pageContext.request.contextPath }/validatecode.jsp"
-								onclick="javascript:document.getElementById('loginform:vCode').src='${pageContext.request.contextPath }/validatecode.jsp?'+Math.random();" />
+								onclick="document.getElementById('loginform:vCode').src='${pageContext.request.contextPath }/validatecode.jsp?'+Math.random();" />
 						</div>
 						<a onclick="document.getElementById('loginform').submit();" href="#" id="loginform:j_id19" name="loginform:j_id19">
 						<span

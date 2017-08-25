@@ -34,8 +34,8 @@ _7.css({height:_5.height()+"px",lineHeight:_5.height()+"px"});
 _8._outerHeight(_5.height());
 _6.panel("resize",{width:(_4.panelWidth?_4.panelWidth:_5.outerWidth()),height:_4.panelHeight});
 _5.insertAfter(_2);
-};
-function _a(_b){
+}
+    function _a(_b){
 var _c=$.data(_b,"combo").options;
 var _d=$.data(_b,"combo").combo;
 if(_c.hasDownArrow){
@@ -43,8 +43,8 @@ _d.find(".combo-arrow").show();
 }else{
 _d.find(".combo-arrow").hide();
 }
-};
-function _e(_f){
+}
+    function _e(_f){
 $(_f).addClass("combo-f").hide();
 var _10=$("<span class=\"combo\"></span>").insertAfter(_f);
 var _11=$("<input type=\"text\" class=\"combo-text\">").appendTo(_10);
@@ -61,15 +61,15 @@ $(_f).removeAttr("name").attr("comboName",_13);
 }
 _11.attr("autocomplete","off");
 return {combo:_10,panel:_12};
-};
-function _14(_15){
+}
+    function _14(_15){
 var _16=$.data(_15,"combo").combo.find("input.combo-text");
 _16.validatebox("destroy");
 $.data(_15,"combo").panel.panel("destroy");
 $.data(_15,"combo").combo.remove();
 $(_15).remove();
-};
-function _17(_18){
+}
+    function _17(_18){
 var _19=$.data(_18,"combo");
 var _1a=_19.options;
 var _1b=$.data(_18,"combo").combo;
@@ -140,8 +140,8 @@ $(this).removeClass("combo-arrow-hover");
 }).bind("mousedown.combo",function(){
 });
 }
-};
-function _20(_21){
+}
+    function _20(_21){
 var _22=$.data(_21,"combo").options;
 var _23=$.data(_21,"combo").combo;
 var _24=$.data(_21,"combo").panel;
@@ -168,8 +168,8 @@ if(_27<0){
 _27=0;
 }
 return _27;
-};
-function _25(){
+}
+    function _25(){
 var top=_23.offset().top+_23._outerHeight();
 if(top+_24._outerHeight()>$(window)._outerHeight()+$(document).scrollTop()){
 top=_23.offset().top-_24._outerHeight();
@@ -178,23 +178,23 @@ if(top<$(document).scrollTop()){
 top=_23.offset().top+_23._outerHeight();
 }
 return top;
-};
-};
-function _28(_29){
+}
+}
+    function _28(_29){
 var _2a=$.data(_29,"combo").options;
 var _2b=$.data(_29,"combo").panel;
 _2b.panel("close");
 _2a.onHidePanel.call(_29);
-};
-function _2c(_2d,_2e){
+}
+    function _2c(_2d,_2e){
 var _2f=$.data(_2d,"combo").options;
 var _30=$.data(_2d,"combo").combo.find("input.combo-text");
 _30.validatebox(_2f);
 if(_2e){
 _30.validatebox("validate");
 }
-};
-function _31(_32,_33){
+}
+    function _31(_32,_33){
 var _34=$.data(_32,"combo").options;
 var _35=$.data(_32,"combo").combo;
 if(_33){
@@ -208,8 +208,8 @@ $(_32).removeAttr("disabled");
 _35.find(".combo-value").removeAttr("disabled");
 _35.find(".combo-text").removeAttr("disabled");
 }
-};
-function _36(_37){
+}
+    function _36(_37){
 var _38=$.data(_37,"combo").options;
 var _39=$.data(_37,"combo").combo;
 if(_38.multiple){
@@ -218,26 +218,26 @@ _39.find("input.combo-value").remove();
 _39.find("input.combo-value").val("");
 }
 _39.find("input.combo-text").val("");
-};
-function _3a(_3b){
+}
+    function _3a(_3b){
 var _3c=$.data(_3b,"combo").combo;
 return _3c.find("input.combo-text").val();
-};
-function _3d(_3e,_3f){
+}
+    function _3d(_3e,_3f){
 var _40=$.data(_3e,"combo").combo;
 _40.find("input.combo-text").val(_3f);
 _2c(_3e,true);
 $.data(_3e,"combo").previousValue=_3f;
-};
-function _41(_42){
+}
+    function _41(_42){
 var _43=[];
 var _44=$.data(_42,"combo").combo;
 _44.find("input.combo-value").each(function(){
 _43.push($(this).val());
 });
 return _43;
-};
-function _45(_46,_47){
+}
+    function _45(_46,_47){
 var _48=$.data(_46,"combo").options;
 var _49=_41(_46);
 var _4a=$.data(_46,"combo").combo;
@@ -271,15 +271,15 @@ _48.onChange.call(_46,_47,_49);
 _48.onChange.call(_46,_47[0],_49[0]);
 }
 }
-};
-function _4d(_4e){
+}
+    function _4d(_4e){
 var _4f=_41(_4e);
 return _4f[0];
-};
-function _50(_51,_52){
+}
+    function _50(_51,_52){
 _45(_51,[_52]);
-};
-function _53(_54){
+}
+    function _53(_54){
 var _55=$.data(_54,"combo").options;
 var fn=_55.onChange;
 _55.onChange=function(){
@@ -300,8 +300,8 @@ _50(_54,_55.value);
 _55.originalValue=_55.value;
 }
 _55.onChange=fn;
-};
-$.fn.combo=function(_56,_57){
+}
+    $.fn.combo=function(_56,_57){
 if(typeof _56=="string"){
 return $.fn.combo.methods[_56](this,_57);
 }

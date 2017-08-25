@@ -4,6 +4,7 @@ import com.itheima.bos.service.impl.UserServiceImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
@@ -22,6 +23,8 @@ public class UserAction extends BaseAction<User> {
 		this.checkcode = checkcode;
 	}
 
+//	@Autowired
+//	@Qualifier("UserServiceImpl")
 	@Resource(type = UserServiceImpl.class)
 	private IUserService userService;
 

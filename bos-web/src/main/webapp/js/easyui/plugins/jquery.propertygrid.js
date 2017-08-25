@@ -43,8 +43,8 @@ return;
 _c(_1);
 _1=undefined;
 });
-};
-function _c(_d){
+}
+    function _c(_d){
 var t=$(_d);
 if(!t.length){
 return;
@@ -64,8 +64,8 @@ t.datagrid("cancelEdit",_f);
 }
 }
 _e.editIndex=undefined;
-};
-$.fn.propertygrid=function(_10,_11){
+}
+    $.fn.propertygrid=function(_10,_11){
 if(typeof _10=="string"){
 var _12=$.fn.propertygrid.methods[_10];
 if(_12){
@@ -176,8 +176,8 @@ return _32;
 }
 }
 return null;
-};
-this.groups=_2e;
+}
+    this.groups=_2e;
 var _33=[];
 for(var i=0;i<_2e.length;i++){
 var _2f=_2e[i];

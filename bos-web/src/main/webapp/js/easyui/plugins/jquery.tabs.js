@@ -47,8 +47,8 @@ _5.css({left:"",right:0});
 _8.css({marginLeft:0,marginRight:_5._outerWidth(),width:_a});
 }
 }
-};
-function _b(_c){
+}
+    function _b(_c){
 var _d=$.data(_c,"tabs").options;
 var _e=$(_c).children("div.tabs-header");
 if(_d.tools){
@@ -68,8 +68,8 @@ _10.linkbutton($.extend({},_d.tools[i],{plain:true}));
 }else{
 _e.children("div.tabs-tool").remove();
 }
-};
-function _11(_12){
+}
+    function _11(_12){
 var _13=$.data(_12,"tabs").options;
 var cc=$(_12);
 _13.fit?$.extend(_13,cc._fit()):cc._fit(false);
@@ -102,8 +102,8 @@ _15._outerWidth(_18);
 _15.width("auto");
 }
 }
-};
-function _19(_1a){
+}
+    function _19(_1a){
 var _1b=$.data(_1a,"tabs").options;
 var tab=_1c(_1a);
 if(tab){
@@ -112,8 +112,8 @@ var _1e=_1b.width=="auto"?"auto":_1d.width();
 var _1f=_1b.height=="auto"?"auto":_1d.height();
 tab.panel("resize",{width:_1e,height:_1f});
 }
-};
-function _20(_21){
+}
+    function _20(_21){
 var _22=$.data(_21,"tabs").tabs;
 var cc=$(_21);
 cc.addClass("tabs-container");
@@ -138,8 +138,8 @@ _19(_21);
 }
 return false;
 });
-};
-function _26(_27){
+}
+    function _26(_27){
 var _28=$.data(_27,"tabs").options;
 var _29=$(_27).children("div.tabs-header");
 var _2a=$(_27).children("div.tabs-panels");
@@ -182,8 +182,8 @@ $(_27).tabs("scrollBy",-_28.scrollIncrement);
 $(".tabs-scroller-right",_29).unbind(".tabs").bind("click.tabs",function(){
 $(_27).tabs("scrollBy",_28.scrollIncrement);
 });
-};
-function _2b(_2c,pp,_2d){
+}
+    function _2b(_2c,pp,_2d){
 var _2e=$.data(_2c,"tabs");
 _2d=_2d||{};
 pp.panel($.extend({},_2d,{border:false,noheader:true,closed:true,doSize:false,iconCls:(_2d.icon?_2d.icon:undefined),onLoad:function(){
@@ -208,8 +208,8 @@ return;
 _2e.options.onContextMenu.call(_2c,e,$(this).find("span.tabs-title").html(),_31(_2c,e.data.p));
 });
 $(_2c).tabs("update",{tab:pp,options:_2f});
-};
-function _32(_33,_34){
+}
+    function _32(_33,_34){
 var _35=$.data(_33,"tabs").options;
 var _36=$.data(_33,"tabs").tabs;
 if(_34.selected==undefined){
@@ -223,8 +223,8 @@ _1(_33);
 if(_34.selected){
 _37(_33,_36.length-1);
 }
-};
-function _38(_39,_3a){
+}
+    function _38(_39,_3a){
 var _3b=$.data(_39,"tabs").selectHis;
 var pp=_3a.tab;
 var _3c=pp.panel("options").title;
@@ -292,8 +292,8 @@ _3e.css("padding-right",pr+"px");
 }
 _1(_39);
 $.data(_39,"tabs").options.onUpdate.call(_39,_3d.title,_31(_39,pp));
-};
-function _42(_43,_44){
+}
+    function _42(_43,_44){
 var _45=$.data(_43,"tabs").options;
 var _46=$.data(_43,"tabs").tabs;
 var _47=$.data(_43,"tabs").selectHis;
@@ -325,8 +325,8 @@ if(_46.length){
 _37(_43,0);
 }
 }
-};
-function _49(_4d,_4e,_4f){
+}
+    function _49(_4d,_4e,_4f){
 var _50=$.data(_4d,"tabs").tabs;
 if(typeof _4e=="number"){
 if(_4e<0||_4e>=_50.length){
@@ -349,8 +349,8 @@ return tab;
 }
 }
 return null;
-};
-function _31(_51,tab){
+}
+    function _31(_51,tab){
 var _52=$.data(_51,"tabs").tabs;
 for(var i=0;i<_52.length;i++){
 if(_52[i][0]==$(tab)[0]){
@@ -358,8 +358,8 @@ return i;
 }
 }
 return -1;
-};
-function _1c(_53){
+}
+    function _1c(_53){
 var _54=$.data(_53,"tabs").tabs;
 for(var i=0;i<_54.length;i++){
 var tab=_54[i];
@@ -368,8 +368,8 @@ return tab;
 }
 }
 return null;
-};
-function _55(_56){
+}
+    function _55(_56){
 var _57=$.data(_56,"tabs").tabs;
 for(var i=0;i<_57.length;i++){
 if(_57[i].panel("options").selected){
@@ -380,8 +380,8 @@ return;
 if(_57.length){
 _37(_56,0);
 }
-};
-function _37(_58,_59){
+}
+    function _37(_58,_59){
 var _5a=$.data(_58,"tabs").options;
 var _5b=$.data(_58,"tabs").tabs;
 var _5c=$.data(_58,"tabs").selectHis;
@@ -413,11 +413,11 @@ $(_58).tabs("scrollBy",0);
 }
 _19(_58);
 _5a.onSelect.call(_58,_5f,_31(_58,_5d));
-};
-function _48(_64,_65){
+}
+    function _48(_64,_65){
 return _49(_64,_65)!=null;
-};
-$.fn.tabs=function(_66,_67){
+}
+    $.fn.tabs=function(_66,_67){
 if(typeof _66=="string"){
 return $.fn.tabs.methods[_66](this,_67);
 }
@@ -492,7 +492,7 @@ ul.children("li").each(function(){
 w+=$(this).outerWidth(true);
 });
 return w-_74.width()+(ul.outerWidth()-ul.width());
-};
+}
 });
 }};
 $.fn.tabs.parseOptions=function(_76){

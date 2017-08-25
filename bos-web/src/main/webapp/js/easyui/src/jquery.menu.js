@@ -464,7 +464,7 @@
 				href: t.attr('href'),
 				name: t.attr('name'),
 				onclick: itemEl.onclick
-			}
+			};
 			var icon = t.children('div.menu-icon');
 			if (icon.length){
 				var cc = [];

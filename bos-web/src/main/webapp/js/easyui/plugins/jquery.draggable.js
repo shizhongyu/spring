@@ -53,8 +53,8 @@ _6.left=_7;
 _6.top=_8;
 }
 }
-};
-function _9(e){
+}
+    function _9(e){
 var _a=$.data(e.data.target,"draggable");
 var _b=_a.options;
 var _c=_a.proxy;
@@ -63,8 +63,8 @@ _c=$(e.data.target);
 }
 _c.css({left:e.data.left,top:e.data.top});
 $("body").css("cursor",_b.cursor);
-};
-function _d(e){
+}
+    function _d(e){
 _1=true;
 var _e=$.data(e.data.target,"draggable");
 var _f=_e.options;
@@ -99,8 +99,8 @@ _2(e);
 _9(e);
 _f.onStartDrag.call(e.data.target,e);
 return false;
-};
-function _13(e){
+}
+    function _13(e){
 var _14=$.data(e.data.target,"draggable");
 _2(e);
 if(_14.options.onDrag.call(e.data.target,e)!=false){
@@ -127,8 +127,8 @@ this.entered=false;
 }
 });
 return false;
-};
-function _17(e){
+}
+    function _17(e){
 _1=false;
 _13(e);
 var _18=$.data(e.data.target,"draggable");
@@ -170,8 +170,8 @@ if(_19){
 _19.remove();
 }
 _18.proxy=null;
-};
-function _1b(){
+}
+    function _1b(){
 var _1e=false;
 _18.droppables.each(function(){
 var _1f=$(this);
@@ -194,10 +194,10 @@ if(!_1e&&!_1a.revert){
 _1d();
 }
 return _1e;
-};
-return false;
-};
-$.fn.draggable=function(_20,_21){
+}
+    return false;
+}
+    $.fn.draggable=function(_20,_21){
 if(typeof _20=="string"){
 return $.fn.draggable.methods[_20](this,_21);
 }
@@ -261,7 +261,7 @@ var r=_2d.left+_2e-e.pageX;
 var b=_2d.top+_2f-e.pageY;
 var l=e.pageX-_2d.left;
 return Math.min(t,r,b,l)>_2b.options.edge;
-};
+}
 });
 };
 $.fn.draggable.methods={options:function(jq){

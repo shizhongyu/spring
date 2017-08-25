@@ -24,8 +24,8 @@ a.linkbutton({iconCls:_8.iconCls,plain:true}).unbind(".pagination").bind("click.
 _8.handler.call(_2);
 });
 return a;
-};
-if(_4.showPageList){
+}
+    if(_4.showPageList){
 var ps=$("<select class=\"pagination-page-list\"></select>");
 ps.bind("change",function(){
 _4.pageSize=parseInt($(this).val());
@@ -73,8 +73,8 @@ $("<a href=\"javascript:void(0)\"></a>").appendTo(td).linkbutton($.extend(_a,{pl
 }
 $("<div class=\"pagination-info\"></div>").appendTo(_5);
 $("<div style=\"clear:both;\"></div>").appendTo(_5);
-};
-function _b(_c,_d){
+}
+    function _b(_c,_d){
 var _e=$.data(_c,"pagination").options;
 var _f=Math.ceil(_e.total/_e.pageSize)||1;
 _e.pageNumber=_d;
@@ -86,8 +86,8 @@ _e.pageNumber=_f;
 }
 _10(_c,{pageNumber:_e.pageNumber});
 _e.onSelectPage.call(_c,_e.pageNumber,_e.pageSize);
-};
-function _10(_11,_12){
+}
+    function _10(_11,_12){
 var _13=$.data(_11,"pagination").options;
 var bb=$.data(_11,"pagination").bb;
 $.extend(_13,_12||{});
@@ -107,8 +107,8 @@ $(_11).find("div.pagination-info").html(_15);
 bb.first.add(bb.prev).linkbutton({disabled:(_13.pageNumber==1)});
 bb.next.add(bb.last).linkbutton({disabled:(_13.pageNumber==_14)});
 _16(_11,_13.loading);
-};
-function _16(_17,_18){
+}
+    function _16(_17,_18){
 var _19=$.data(_17,"pagination").options;
 var bb=$.data(_17,"pagination").bb;
 _19.loading=_18;
@@ -119,8 +119,8 @@ bb.refresh.linkbutton({iconCls:"pagination-loading"});
 bb.refresh.linkbutton({iconCls:"pagination-load"});
 }
 }
-};
-$.fn.pagination=function(_1a,_1b){
+}
+    $.fn.pagination=function(_1a,_1b){
 if(typeof _1a=="string"){
 return $.fn.pagination.methods[_1a](this,_1b);
 }

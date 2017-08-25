@@ -4,7 +4,7 @@ ext.versions = [
         jackson     : '2.4.3',
         logback     : '1.1.11',
         slf4j       : '1.7.24',
-        hibernate   : '5.2.6.Final',
+        hibernate   : '5.2.10.Final',
         struts2     : '2.5.12',
         servlet     : '3.0.1',
         xwork       : '2.3.31',

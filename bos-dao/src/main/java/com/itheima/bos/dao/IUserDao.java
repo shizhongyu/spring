@@ -1,10 +1,10 @@
 package com.itheima.bos.dao;
 
 import com.itheima.bos.dao.base.IBaseDao;
-import com.itheima.bos.domain.User;
+import com.itheima.bos.domain.TUser;
 
-public interface IUserDao extends IBaseDao<User> {
+public interface IUserDao extends IBaseDao<TUser> {
 
-	User findUserByUsernameAndPassword(String username, String password);
+	TUser findUserByUsernameAndPassword(String username, String password);
 
 }

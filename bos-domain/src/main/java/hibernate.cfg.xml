@@ -6,9 +6,11 @@
   <session-factory>
     <property name="connection.url">jdbc:mysql://localhost:3306/ssh</property>
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-    <mapping class="com.itheima.bos.domain.User"/>
-    <!-- <property name="connection.username"/> -->
-    <!-- <property name="connection.password"/> -->
+    <!--<mapping class="com.itheima.bos.domain.TUser"/>-->
+    <mapping class="com.itheima.bos.domain.TUser"/>
+    <mapping resource="TUser.hbm.xml"/>
+    <!--<property name="connection.username">root</property>-->
+    <!--<property name="connection.password">szy19971215</property>-->
 
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->

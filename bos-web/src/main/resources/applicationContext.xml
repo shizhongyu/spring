@@ -35,12 +35,18 @@
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
                 <prop key="hibernate.show_sql">true</prop>
                 <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.connection.url">jdbc:mysql://localhost:3306/ssh</prop>
+                <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
             </props>
         </property>
         <!-- 注入hibernate的映射文件 -->
         <property name="mappingLocations">
             <list>
-                <value>classpath:com/itheima/bos/domain/*.xml</value>
+                <!--正确写法-->
+                <value>classpath:TUser.hbm.xml</value>
+                <!--错误写法-->
+                <!--<value>classpath:com/itheima/bos/domain/*.xml</value>-->
+                <!--<value>classpath:com/itheima/bos/domain/TUser.hbm.xml</value>-->
             </list>
         </property>
     </bean>

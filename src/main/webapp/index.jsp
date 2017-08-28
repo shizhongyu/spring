@@ -8,6 +8,6 @@
 </head>
 <body>
 ssh
-<%--<jsp:forward page="/page_common_index.action"></jsp:forward>--%>
+<jsp:forward page="/page_common_index.action"></jsp:forward>
 </body>
 </html>

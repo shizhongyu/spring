@@ -14,18 +14,26 @@ import com.itheima.bos.utils.MD5Utils;
 @Transactional
 public class UserServiceImpl implements IUserService {
 
+	@Autowired
+	private  IUserDao userDao;
 	/***
 	 * 用户登录
 	 */
 	public TUser login(TUser user) {
 
 
-//		//使用MD5加密密码
+		//使用MD5加密密码
 		String password = MD5Utils.md5(user.getPassword());
 		password = user.getPassword();
 		return userDao.findUserByUsernameAndPassword(user.getUsername(),password);
 	}
-
-	@Autowired
-	private  IUserDao userDao;
+	/**
+	 * 根据用户id修改密码
+	 */
+	public void editPassword(String id, String password) {
+		//使用MD5加密密码
+		password = MD5Utils.md5(password);
+		userDao.executeUpdate("user.editpassword", password,id);
+	}
 }
+

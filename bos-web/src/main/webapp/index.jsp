@@ -8,5 +8,6 @@
 </head>
 <body>
 <%--<jsp:forward page="/page_common_index.action"></jsp:forward>--%>
+<META HTTP-EQUIV="Refresh" CONTENT="1;URL=page_common_index.action">
 </body>
 </html>

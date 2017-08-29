@@ -7,8 +7,8 @@
     <property name="connection.url">jdbc:mysql://localhost:3306/ssh</property>
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
       <!--<mapping class="com.itheima.bos.domain.TUserr/>-->
-    <mapping class="com.itheima.bos.domain.TUser"/>
-    <mapping resource="TUser.hbm.xml"/>
+      <mapping class="com.itheima.bos.domain.TUser"/>
+      <mapping resource="com/itheima/bos/domain/TUser.hbm.xml"/>
       <mapping resource="com/itheima/bos/domain/BcDecidedzone.hbm.xml"/>
       <mapping class="com.itheima.bos.domain.BcDecidedzone"/>
       <mapping resource="com/itheima/bos/domain/BcRegion.hbm.xml"/>

@@ -84,9 +84,7 @@ public class BcSubarea {
         if (startnum != null ? !startnum.equals(bcSubarea.startnum) : bcSubarea.startnum != null) return false;
         if (endnum != null ? !endnum.equals(bcSubarea.endnum) : bcSubarea.endnum != null) return false;
         if (single != null ? !single.equals(bcSubarea.single) : bcSubarea.single != null) return false;
-        if (position != null ? !position.equals(bcSubarea.position) : bcSubarea.position != null) return false;
-
-        return true;
+        return position != null ? position.equals(bcSubarea.position) : bcSubarea.position == null;
     }
 
     @Override

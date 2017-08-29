@@ -96,9 +96,7 @@ public class BcRegion {
         if (district != null ? !district.equals(bcRegion.district) : bcRegion.district != null) return false;
         if (postcode != null ? !postcode.equals(bcRegion.postcode) : bcRegion.postcode != null) return false;
         if (shortcode != null ? !shortcode.equals(bcRegion.shortcode) : bcRegion.shortcode != null) return false;
-        if (citycode != null ? !citycode.equals(bcRegion.citycode) : bcRegion.citycode != null) return false;
-
-        return true;
+        return citycode != null ? citycode.equals(bcRegion.citycode) : bcRegion.citycode == null;
     }
 
     @Override

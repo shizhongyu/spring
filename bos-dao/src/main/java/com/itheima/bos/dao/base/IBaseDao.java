@@ -1,5 +1,7 @@
 package com.itheima.bos.dao.base;
 
+import com.itheima.bos.utils.PageBean;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -15,5 +17,6 @@ public interface IBaseDao<T> {
 	void update(T entity);
 	T findById(Serializable id);
 	List<T> findAll();
-	public void executeUpdate(String queryName,Object...objects);
+	void executeUpdate(String queryName, Object... objects);
+	void  pageQuery(PageBean pageBean);
 }

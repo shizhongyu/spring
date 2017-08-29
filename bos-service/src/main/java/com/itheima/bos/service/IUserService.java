@@ -6,5 +6,5 @@ public interface IUserService {
 
 	TUser login(TUser model);
 
-	public void editPassword(String id, String password);
+	void editPassword(String id, String password);
 }

@@ -121,9 +121,7 @@ public class TUser {
         if (gender != null ? !gender.equals(user.gender) : user.gender != null) return false;
         if (station != null ? !station.equals(user.station) : user.station != null) return false;
         if (telephone != null ? !telephone.equals(user.telephone) : user.telephone != null) return false;
-        if (remark != null ? !remark.equals(user.remark) : user.remark != null) return false;
-
-        return true;
+        return remark != null ? remark.equals(user.remark) : user.remark == null;
     }
 
     @Override

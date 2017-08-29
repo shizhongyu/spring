@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":bos-service" external.linked.project.path="$MODULE_DIR$/../../../spring/bos-service" external.root.project.path="$MODULE_DIR$/../../../spring" external.system.id="GRADLE" external.system.module.group="com.spring" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":bos-service" external.linked.project.path="$MODULE_DIR$/../../bos-service" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="com.spring" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../spring/bos-service">
-      <excludeFolder url="file://$MODULE_DIR$/../../../spring/bos-service/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../spring/bos-service/build" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../spring/bos-service/out" />
+    <content url="file://$MODULE_DIR$/../../bos-service">
+      <excludeFolder url="file://$MODULE_DIR$/../../bos-service/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bos-service/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bos-service/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

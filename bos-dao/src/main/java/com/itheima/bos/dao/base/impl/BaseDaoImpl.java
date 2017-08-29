@@ -1,16 +1,19 @@
 package com.itheima.bos.dao.base.impl;
+
+import com.itheima.bos.dao.base.IBaseDao;
+import com.itheima.bos.utils.PageBean;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.criterion.DetachedCriteria;
+import org.hibernate.criterion.Projections;
+import org.hibernate.query.Query;
+import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+
+import javax.annotation.Resource;
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.List;
-
-import javax.annotation.Resource;
-
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.query.Query;
-import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
-import com.itheima.bos.dao.base.IBaseDao;
 /**
  * 持久层通用实现
  * @author zhaoqx
@@ -67,4 +70,27 @@ public class BaseDaoImpl<T> extends HibernateDaoSupport implements IBaseDao<T> {
 		//执行更新
 		query.executeUpdate();
 	}
+
+	/**
+	 * 通用分页查询方法
+	 */
+	public void pageQuery(PageBean pageBean) {
+		int currentPage = pageBean.getCurrentPage();
+		int pageSize = pageBean.getPageSize();
+		DetachedCriteria detachedCriteria = pageBean.getDetachedCriteria();
+
+		//查询total---总数据量
+		detachedCriteria.setProjection(Projections.rowCount());//指定hibernate框架发出sql的形式----》select count(*) from bc_staff;
+		List<Long> countList = (List<Long>) this.getHibernateTemplate().findByCriteria(detachedCriteria);
+		Long count = countList.get(0);
+		pageBean.setTotal(count.intValue());
+
+		//查询rows---当前页需要展示的数据集合
+		detachedCriteria.setProjection(null);//指定hibernate框架发出sql的形式----》select * from bc_staff;
+		int firstResult = (currentPage - 1) * pageSize;
+		int maxResults = pageSize;
+		List rows = this.getHibernateTemplate().findByCriteria(detachedCriteria, firstResult, maxResults);
+		pageBean.setRows(rows);
+	}
+
 }

@@ -96,9 +96,7 @@ public class BcStaff {
         if (haspda != null ? !haspda.equals(bcStaff.haspda) : bcStaff.haspda != null) return false;
         if (deltag != null ? !deltag.equals(bcStaff.deltag) : bcStaff.deltag != null) return false;
         if (station != null ? !station.equals(bcStaff.station) : bcStaff.station != null) return false;
-        if (standard != null ? !standard.equals(bcStaff.standard) : bcStaff.standard != null) return false;
-
-        return true;
+        return standard != null ? standard.equals(bcStaff.standard) : bcStaff.standard == null;
     }
 
     @Override

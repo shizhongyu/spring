@@ -4,7 +4,7 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'war'
 
-sourceCompatibility = 1.7
+sourceCompatibility = 1.8
 repositories {
     mavenCentral()
 }
@@ -33,18 +33,16 @@ dependencies {
 
 
     compile(
-            project(':bos-domain'),
-//            libraries.'spring-beans',
-            libraries.'spring-tx',
-            libraries.'spring-context',
-            libraries.'spring-context-support',
-            libraries.'spring-core',
-            libraries.'spring-orm',
+            project(':bos-utils'),
+//            libraries.'spring-tx',
+//            libraries.'spring-context',
+//            libraries.'spring-context-support',
+//            libraries.'spring-core',
+//            libraries.'spring-orm',
             libraries.'hibernate-core',
-            libraries.'spring-webmvc',
-            libraries.'spring-web',
-            libraries.'spring-aop',
-//            libraries.'spring-jdbc',
+//            libraries.'spring-webmvc',
+//            libraries.'spring-web',
+//            libraries.'spring-aop',
     )
 }
 

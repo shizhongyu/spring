@@ -37,9 +37,9 @@
             <result name="home">/index.jsp</result>
             <result name="login">/login.jsp</result>
         </action>
-        <!--&lt;!&ndash; 取派员管理 &ndash;&gt;-->
-        <!--<action name="staffAction_*" class="staffAction" method="{1}">-->
-            <!--<result name="list">/WEB-INF/pages/base/staff.jsp</result>-->
-        <!--</action>-->
+        <!-- 取派员管理 -->
+        <action name="staffAction_*" class="staffAction" method="add">
+            <result name="list">/WEB-INF/pages/base/staff.jsp</result>
+        </action>
     </package>
 </struts>

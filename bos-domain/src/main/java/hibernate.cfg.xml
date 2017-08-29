@@ -6,10 +6,18 @@
   <session-factory>
     <property name="connection.url">jdbc:mysql://localhost:3306/ssh</property>
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-    <!--<mapping class="com.itheima.bos.domain.TUserr/>-->
+      <!--<mapping class="com.itheima.bos.domain.TUserr/>-->
     <mapping class="com.itheima.bos.domain.TUser"/>
     <mapping resource="TUser.hbm.xml"/>
-    <!--<property name="connection.username">root</property>-->
+      <mapping resource="com/itheima/bos/domain/BcDecidedzone.hbm.xml"/>
+      <mapping class="com.itheima.bos.domain.BcDecidedzone"/>
+      <mapping resource="com/itheima/bos/domain/BcRegion.hbm.xml"/>
+      <mapping class="com.itheima.bos.domain.BcRegion"/>
+      <mapping resource="com/itheima/bos/domain/BcStaff.hbm.xml"/>
+      <mapping class="com.itheima.bos.domain.BcStaff"/>
+      <mapping resource="com/itheima/bos/domain/BcSubarea.hbm.xml"/>
+      <mapping class="com.itheima.bos.domain.BcSubarea"/>
+      <!--<property name="connection.username">root</property>-->
     <!--<property name="connection.password">szy19971215</property>-->
 
     <!-- DB schema will be updated if needed -->

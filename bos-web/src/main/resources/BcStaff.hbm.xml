@@ -9,20 +9,17 @@
             <column name="id" length="32"/>
             <generator class="uuid"/>
         </id>
-        <many-to-one name="staff" class="com.itheima.bos.domain.BcStaff" fetch="select">
-            <column name="staff_id" length="32" />
-        </many-to-one>
         <property name="name" column="name"/>
         <property name="telephone" column="telephone"/>
         <property name="haspda" column="haspda"/>
         <property name="deltag" column="deltag"/>
         <property name="station" column="station"/>
         <property name="standard" column="standard"/>
-        <set name="subareas" inverse="true">
+        <set name="decidedzones" inverse="true">
             <key>
-                <column name="decidedzone_id" length="32" />
+                <column name="staff_id" length="32" />
             </key>
-            <one-to-many class="com.itheima.bos.domain.BcSubarea" />
+            <one-to-many class="com.itheima.bos.domain.BcDecidedzone" />
         </set>
     </class>
     <query name="staff.delete">

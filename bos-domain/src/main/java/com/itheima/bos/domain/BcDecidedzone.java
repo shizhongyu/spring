@@ -1,15 +1,47 @@
 package com.itheima.bos.domain;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "bc_decidedzone", schema = "ssh", catalog = "")
 public class BcDecidedzone {
     private String id;
+    private BcStaff staff;
     private String name;
+    private Set subareas = new HashSet(0);
+
+    public BcStaff getStaff() {
+        return staff;
+    }
+
+    public void setStaff(BcStaff staff) {
+        this.staff = staff;
+    }
+
+    public Set getSubareas() {
+        return subareas;
+    }
+
+    public void setSubareas(Set subareas) {
+        this.subareas = subareas;
+    }
+
+    public BcDecidedzone() {
+    }
+
+    public BcDecidedzone(String id, BcStaff staff, String name, Set subareas) {
+
+        this.id = id;
+        this.staff = staff;
+        this.name = name;
+        this.subareas = subareas;
+    }
 
     @Id
     @Column(name = "id")
+
     public String getId() {
         return id;
     }

@@ -6,6 +6,15 @@
 
     <class name="com.itheima.bos.domain.BcDecidedzone" table="bc_decidedzone" schema="ssh">
         <id name="id" column="id"/>
+        <many-to-one name="staff" class="com.itheima.bos.domain.BcStaff" fetch="select">
+        <column name="staff_id" length="32" />
+        </many-to-one>
         <property name="name" column="name"/>
+        <set name="subareas" inverse="true">
+            <key>
+                <column name="decidedzone_id" length="32" />
+            </key>
+            <one-to-many class="com.itheima.bos.domain.BcSubarea" />
+        </set>
     </class>
 </hibernate-mapping>

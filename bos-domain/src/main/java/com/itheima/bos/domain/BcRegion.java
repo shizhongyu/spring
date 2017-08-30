@@ -15,6 +15,10 @@ public class BcRegion {
     private String shortcode;
     private String citycode;
 
+    public String getName() {
+        return province + " " + city + " " + district;
+    }
+
     public BcRegion(String id, String province, String city, String district, String postcode, String shortcode, String citycode, Set subareas) {
         this.id = id;
         this.province = province;
@@ -23,6 +27,14 @@ public class BcRegion {
         this.postcode = postcode;
         this.shortcode = shortcode;
         this.citycode = citycode;
+        this.subareas = subareas;
+    }
+
+    public Set getSubareas() {
+        return subareas;
+    }
+
+    public void setSubareas(Set subareas) {
         this.subareas = subareas;
     }
 

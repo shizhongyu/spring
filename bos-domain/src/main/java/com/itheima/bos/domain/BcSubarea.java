@@ -6,11 +6,43 @@ import javax.persistence.*;
 @Table(name = "bc_subarea", schema = "ssh", catalog = "")
 public class BcSubarea {
     private String id;
+    private BcDecidedzone decidedzone;
+    private BcRegion region;
     private String addresskey;
     private String startnum;
     private String endnum;
     private String single;
     private String position;
+
+    public BcSubarea() {
+    }
+
+    public BcSubarea(String id, BcDecidedzone decidedzone, BcRegion region, String addresskey, String startnum, String endnum, String single, String position) {
+        this.id = id;
+        this.decidedzone = decidedzone;
+        this.region = region;
+        this.addresskey = addresskey;
+        this.startnum = startnum;
+        this.endnum = endnum;
+        this.single = single;
+        this.position = position;
+    }
+
+    public BcDecidedzone getDecidedzone() {
+        return decidedzone;
+    }
+
+    public void setDecidedzone(BcDecidedzone decidedzone) {
+        this.decidedzone = decidedzone;
+    }
+
+    public BcRegion getRegion() {
+        return region;
+    }
+
+    public void setRegion(BcRegion region) {
+        this.region = region;
+    }
 
     @Id
     @Column(name = "id")

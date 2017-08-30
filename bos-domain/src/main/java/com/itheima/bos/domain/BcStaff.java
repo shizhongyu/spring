@@ -1,6 +1,8 @@
 package com.itheima.bos.domain;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "bc_staff", schema = "ssh", catalog = "")
@@ -12,6 +14,29 @@ public class BcStaff {
     private String deltag = "0";
     private String station;
     private String standard;
+    private Set decidedzones = new HashSet(0);
+
+    public Set getDecidedzones() {
+        return decidedzones;
+    }
+
+    public void setDecidedzones(Set decidedzones) {
+        this.decidedzones = decidedzones;
+    }
+
+    public BcStaff() {
+    }
+
+    public BcStaff(String id, String name, String telephone, String haspda, String deltag, String station, String standard, Set decidedzones) {
+        this.id = id;
+        this.name = name;
+        this.telephone = telephone;
+        this.haspda = haspda;
+        this.deltag = deltag;
+        this.station = station;
+        this.standard = standard;
+        this.decidedzones = decidedzones;
+    }
 
     @Id
     @Column(name = "id")

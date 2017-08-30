@@ -36,7 +36,6 @@
         <action name="userAction_*" class="com.itheima.bos.web.action.UserAction" method="{1}">
             <result name="home">/index.jsp</result>
             <result name="login">/login.jsp</result>
-            <!--<allowed-methods>login,logout</allowed-methods>-->
         </action>
         <!-- 取派员管理 -->
         <action name="staffAction_*" class="com.itheima.bos.web.action.StaffAction" method="{1}">

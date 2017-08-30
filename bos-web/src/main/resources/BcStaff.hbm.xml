@@ -16,4 +16,7 @@
         <property name="station" column="station"/>
         <property name="standard" column="standard"/>
     </class>
+    <query name="staff.delete">
+        UPDATE BcStaff SET deltag = '1' WHERE id = ?
+    </query>
 </hibernate-mapping>

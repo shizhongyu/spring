@@ -9,7 +9,7 @@ public class BcStaff {
     private String name;
     private String telephone;
     private String haspda = "0";
-    private String deltag;
+    private String deltag = "0";
     private String station;
     private String standard;
 

@@ -12,5 +12,11 @@
         <property name="postcode" column="postcode"/>
         <property name="shortcode" column="shortcode"/>
         <property name="citycode" column="citycode"/>
+        <set name="subareas" inverse="true">
+            <key>
+                <column name="region_id" length="32" />
+            </key>
+            <one-to-many class="com.itheima.bos.domain.BcSubarea" />
+        </set>
     </class>
 </hibernate-mapping>

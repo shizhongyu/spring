@@ -1,6 +1,8 @@
 package com.itheima.bos.domain;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "bc_region", schema = "ssh", catalog = "")
@@ -12,6 +14,27 @@ public class BcRegion {
     private String postcode;
     private String shortcode;
     private String citycode;
+
+    public BcRegion(String id, String province, String city, String district, String postcode, String shortcode, String citycode, Set subareas) {
+        this.id = id;
+        this.province = province;
+        this.city = city;
+        this.district = district;
+        this.postcode = postcode;
+        this.shortcode = shortcode;
+        this.citycode = citycode;
+        this.subareas = subareas;
+    }
+
+    private Set subareas = new HashSet(0);
+
+    public BcRegion() {
+    }
+
+    public BcRegion(String id) {
+        this.id = id;
+    }
+
 
     @Id
     @Column(name = "id")

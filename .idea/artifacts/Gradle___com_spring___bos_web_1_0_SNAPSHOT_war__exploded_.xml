@@ -18,6 +18,7 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: net.sf.json-lib:json-lib:jdk15:2.4" />
+          <element id="library" level="project" name="Gradle: org.apache.poi:poi:3.16" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.9.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.9.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.9.RELEASE" />
@@ -74,9 +75,12 @@
           <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Gradle: commons-lang:commons-lang:2.5" />
           <element id="library" level="project" name="Gradle: net.sf.ezmorph:ezmorph:1.0.6" />
+          <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-collections4:4.1" />
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm:5.1" />
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm-commons:5.1" />
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm-tree:5.1" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.belerweb/pinyin4j/2.5.0/5a620aedec0f779f2123ba60fd4b74bfbd3e2646/pinyin4j-2.5.0.jar" />
         </element>
       </element>
     </root>

@@ -39,6 +39,7 @@
     <orderEntry type="library" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-core:5.2.10.Final" level="project" />
     <orderEntry type="library" name="Gradle: javax.el:javax.el-api:3.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.belerweb:pinyin4j:2.5.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.struts:struts2-core:2.5.12" level="project" />
     <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />

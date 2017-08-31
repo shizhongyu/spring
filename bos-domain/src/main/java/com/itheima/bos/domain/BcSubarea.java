@@ -14,6 +14,10 @@ public class BcSubarea {
     private String single;
     private String position;
 
+    public String getSubareaid() {
+        return id;
+    }
+
     public BcSubarea() {
     }
 

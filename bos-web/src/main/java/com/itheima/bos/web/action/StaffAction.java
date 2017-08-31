@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
 import java.io.IOException;
+import java.util.List;
 
 /**
  * 取派员管理
@@ -69,6 +70,16 @@ public class StaffAction extends BaseAction<BcStaff>{
 		staff.setStation(model.getStation());
 		staffService.update(staff);
 		return LIST;
+	}
+
+
+	/**
+	 * 查询所有未删除的取派员，返回json
+	 */
+	public String listajax(){
+		List<BcStaff> list = staffService.findListNotDelete();
+		this.java2Json(list, new String[]{"decidedzones"});
+		return NONE;
 	}
 
 	/*public static void main(String[] args) {

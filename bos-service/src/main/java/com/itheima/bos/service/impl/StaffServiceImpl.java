@@ -5,9 +5,14 @@ import com.itheima.bos.domain.BcStaff;
 import com.itheima.bos.service.IStaffService;
 import com.itheima.bos.utils.PageBean;
 import org.apache.commons.lang3.StringUtils;
+import org.hibernate.criterion.DetachedCriteria;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+
 @Service
 @Transactional
 public class StaffServiceImpl implements IStaffService {
@@ -46,4 +51,17 @@ public class StaffServiceImpl implements IStaffService {
 	public void update(BcStaff staff) {
 		staffDao.update(staff);
 	}
+
+
+	/**
+	 *  查询所有未删除的取派员
+	 */
+	public List<BcStaff> findListNotDelete() {
+		DetachedCriteria detachedCriteria = DetachedCriteria.forClass(BcStaff.class);
+		//添加过滤条件，deltag等于0
+		detachedCriteria.add(Restrictions.eq("deltag", "0"));
+		//detachedCriteria.add(Restrictions.ne("deltag", "1"));
+		return staffDao.findByCriteria(detachedCriteria);
+	}
+
 }

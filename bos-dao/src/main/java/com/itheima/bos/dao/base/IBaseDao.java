@@ -1,6 +1,7 @@
 package com.itheima.bos.dao.base;
 
 import com.itheima.bos.utils.PageBean;
+import org.hibernate.criterion.DetachedCriteria;
 
 import java.io.Serializable;
 import java.util.List;
@@ -12,12 +13,13 @@ import java.util.List;
  * @param <T>
  */
 public interface IBaseDao<T> {
-    void save(T entity);
-	void delete(T entity);
-	void update(T entity);
-	T findById(Serializable id);
-	List<T> findAll();
-	void executeUpdate(String queryName, Object... objects);
-	void  pageQuery(PageBean pageBean);
+	public void save(T entity);
+	public void delete(T entity);
+	public void update(T entity);
 	public void saveOrUpdate(T entity);
+	public T findById(Serializable id);
+	public List<T> findAll();
+	public List<T> findByCriteria(DetachedCriteria detachedCriteria);
+	public void executeUpdate(String queryName,Object...objects);
+	public void pageQuery(PageBean pageBean);
 }

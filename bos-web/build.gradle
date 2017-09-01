@@ -46,6 +46,5 @@ dependencies {
             libraries.'spring-web',
     )
     compile group: 'org.springframework', name: 'spring-beans', version: '4.3.9.RELEASE'
-
 //    compile group: 'org.apache.struts', name: 'struts2-core', version: '2.5.12'
 }

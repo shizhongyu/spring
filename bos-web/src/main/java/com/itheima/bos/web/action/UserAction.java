@@ -2,6 +2,8 @@ package com.itheima.bos.web.action;
 
 import com.itheima.bos.domain.TUser;
 import com.itheima.bos.utils.BOSUtils;
+import com.itheima.crm.Customer;
+import com.itheima.crm.ICustomerService;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,10 +14,13 @@ import com.itheima.bos.service.IUserService;
 import com.itheima.bos.web.action.base.BaseAction;
 
 import java.io.IOException;
+import java.util.List;
 
 @Controller
 @Scope("prototype")
 public class UserAction extends BaseAction<TUser> {
+	@Autowired
+	private ICustomerService proxy;
 	//属性驱动，接收页面输入的验证码
 	private String checkcode;
 	public void setCheckcode(String checkcode) {
@@ -29,6 +34,7 @@ public class UserAction extends BaseAction<TUser> {
 	 * 用户登录
 	 */
 	public String login(){
+		List<Customer> list2 =  proxy.findAll();
 		//从Session中获取生成的验证码
 		String validatecode = (String) ServletActionContext.getRequest().getSession().getAttribute("key");
 		//校验验证码是否输入正确

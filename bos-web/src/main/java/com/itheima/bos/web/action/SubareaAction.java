@@ -129,4 +129,24 @@ public class SubareaAction extends BaseAction<BcSubarea>{
 		this.java2Json(list, new String[]{"decidedzone","region"});
 		return NONE;
 	}
+
+	//属性驱动，接收定区id
+	private String decidedzoneId;
+
+	/**
+	 * 根据定区id查询关联的分区
+	 */
+	public String findListByDecidedzoneId(){
+		List<BcSubarea> list = subareaService.findListByDecidedzoneId(decidedzoneId);
+		this.java2Json(list, new String[]{"decidedzone","subareas"});
+		return NONE;
+	}
+
+	public String getDecidedzoneId() {
+		return decidedzoneId;
+	}
+
+	public void setDecidedzoneId(String decidedzoneId) {
+		this.decidedzoneId = decidedzoneId;
+	}
 }

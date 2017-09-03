@@ -41,7 +41,7 @@ public interface ICustomerService {
      * 
      * @param arg0
      * @return
-     *     returns java.util.List<com.itheima.Customer>
+     *     returns java.util.List<com.itheima.crm.Customer>
      */
     @WebMethod
     @WebResult(targetNamespace = "")
@@ -54,7 +54,7 @@ public interface ICustomerService {
     /**
      * 
      * @return
-     *     returns java.util.List<com.itheima.Customer>
+     *     returns java.util.List<com.itheima.crm.Customer>
      */
     @WebMethod
     @WebResult(targetNamespace = "")
@@ -64,13 +64,41 @@ public interface ICustomerService {
 
     /**
      * 
+     * @param arg0
      * @return
-     *     returns java.util.List<com.itheima.Customer>
+     *     returns com.itheima.crm.Customer
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "findCustomerByTelephone", targetNamespace = "http://service.crm.itheima.com/", className = "com.itheima.crm.FindCustomerByTelephone")
+    @ResponseWrapper(localName = "findCustomerByTelephoneResponse", targetNamespace = "http://service.crm.itheima.com/", className = "com.itheima.crm.FindCustomerByTelephoneResponse")
+    public Customer findCustomerByTelephone(
+            @WebParam(name = "arg0", targetNamespace = "")
+                    String arg0);
+
+    /**
+     * 
+     * @return
+     *     returns java.util.List<com.itheima.crm.Customer>
      */
     @WebMethod
     @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "findAll", targetNamespace = "http://service.crm.itheima.com/", className = "com.itheima.crm.FindAll")
     @ResponseWrapper(localName = "findAllResponse", targetNamespace = "http://service.crm.itheima.com/", className = "com.itheima.crm.FindAllResponse")
     public List<Customer> findAll();
+
+    /**
+     * 
+     * @param arg0
+     * @return
+     *     returns java.lang.String
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "findDecidedzoneIdByAddress", targetNamespace = "http://service.crm.itheima.com/", className = "com.itheima.crm.FindDecidedzoneIdByAddress")
+    @ResponseWrapper(localName = "findDecidedzoneIdByAddressResponse", targetNamespace = "http://service.crm.itheima.com/", className = "com.itheima.crm.FindDecidedzoneIdByAddressResponse")
+    public String findDecidedzoneIdByAddress(
+            @WebParam(name = "arg0", targetNamespace = "")
+                    String arg0);
 
 }

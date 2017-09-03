@@ -7,11 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f25a9ce1-aca3-44b2-bd6a-2bfbec3c37bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/INoticebillDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IWorkbillDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IWorkordermanageDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/NoticebillDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/WorkbillDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/WorkordermangeDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/INoticebillService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IWorkordermanageService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/NoticebillServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/WorkordermanageServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/NoticebillAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/WorkordermanageAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/easyui/10-datagrid_edit.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-utils/src/main/java/com/itheima/crm/ICustomerService.java" afterPath="$PROJECT_DIR$/../spring/bos-utils/src/main/java/com/itheima/crm/ICustomerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/pages/qupai/quickworkorder.jsp" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/pages/qupai/quickworkorder.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/../spring/out/" />
     <ignored path="$PROJECT_DIR$/../spring/.gradle/" />
@@ -140,115 +153,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QpWorkbill.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java">
+      <file leaf-file-name="WorkordermanageAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/WorkordermanageAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QpWorkbill.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml">
+      <file leaf-file-name="IWorkordermanageService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IWorkordermanageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="76">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QpWorkbill.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/QpWorkbill.hbm.xml">
+      <file leaf-file-name="WorkordermanageServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/WorkordermanageServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QpWorkordermanage.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/QpWorkordermanage.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="74" column="50" lean-forward="true" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QpNoticebill.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+            <state relative-caret-position="171">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#1861#1862#0" expanded="true" />
-                <element signature="e#1900#1901#0" expanded="true" />
-                <element signature="e#1932#1933#0" expanded="true" />
-                <element signature="e#1965#1966#0" expanded="true" />
-                <element signature="e#1993#1994#0" expanded="true" />
-                <element signature="e#2036#2037#0" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
-                <element signature="e#2103#2104#0" expanded="true" />
-                <element signature="e#2135#2136#0" expanded="true" />
-                <element signature="e#2182#2183#0" expanded="true" />
-                <element signature="e#2224#2225#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QpNoticebill.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/QpNoticebill.hbm.xml">
+      <file leaf-file-name="IWorkordermanageDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IWorkordermanageDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="76">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BcDecidedzone.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcDecidedzone.hbm.xml">
+      <file leaf-file-name="WorkordermangeDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/WorkordermangeDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="76">
+              <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BcDecidedzone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcDecidedzone.java">
+      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="145">
+              <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -292,6 +267,7 @@
       <find>pageList</find>
       <find>name</find>
       <find>workbills</find>
+      <find>ICustomerService</find>
     </findStrings>
     <replaceStrings>
       <replace>TUser</replace>
@@ -1401,19 +1377,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../spring/build.gradle" />
-        <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/PageBean.java" />
-        <option value="$PROJECT_DIR$/../spring/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/../spring/bos-service/build.gradle" />
-        <option value="$PROJECT_DIR$/../spring/.idea/modules/bos-web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/pages/base/region.jsp" />
-        <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IRegionService.java" />
-        <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IRegionDao.java" />
-        <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/RegionDaoImpl.java" />
-        <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/RegionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/base/BaseAction.java" />
-        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/webapp/easyui/09-combobox.jsp" />
-        <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/ISubareaDao.java" />
         <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/SubareaDaoImpl.java" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcRegion.hbm.xml" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcStaff.hbm.xml" />
@@ -1428,7 +1391,6 @@
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcSubarea.hbm.xml" />
         <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IStaffService.java" />
         <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/StaffServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IDecidedzoneService.java" />
         <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IDecidedzoneDao.java" />
         <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/DecidedzoneDaoImpl.java" />
@@ -1452,6 +1414,20 @@
         <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java" />
         <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../spring/bos-utils/src/main/java/com/itheima/crm/ICustomerService.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/NoticebillAction.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/INoticebillService.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/NoticebillDaoImpl.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/INoticebillDao.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IWorkbillDao.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/WorkbillDaoImpl.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/NoticebillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IWorkordermanageService.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IWorkordermanageDao.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/WorkordermangeDaoImpl.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/WorkordermanageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/WorkordermanageAction.java" />
       </list>
     </option>
   </component>
@@ -1773,25 +1749,70 @@
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-dao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1799,11 +1820,66 @@
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="bos-domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
@@ -1829,7 +1905,73 @@
               <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="easyui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bos-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="qupai" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1849,7 +1991,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3004926" />
-    <property name="SearchEverywhereHistoryKey" value="Work&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java&#10;Notice&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml&#10;work&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml&#10;wo&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.hbm.xml&#10;wor&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.java&#10;Wo&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java&#10;im&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/impl/SubareaServiceImpl.java&#10;applic&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;User&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java&#10;UserAc&#9;PSI&#9;JAVA://com.itheima.bos.web.action.UserAction&#10;appli&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;Action&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java&#10;action&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java&#10;web&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;index&#9;FILE&#9;file://H:/spring/src/main/webapp/index.jsp&#10;appLI&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;web.xml&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;Staff&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcStaff.java&#10;Pagebe&#9;PSI&#9;JAVA://com.itheima.bos.utils.PageBean&#10;IStaffSe&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/IStaffService.java&#10;StaffAc&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;Decidedzon&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcDecidedzone.hbm.xml&#10;BcSu&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcSubarea.java&#10;DecidedzoneServiceImpl&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/impl/DecidedzoneServiceImpl.java&#10;Decide&#9;FILE&#9;file://H:/spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/DecidedzoneDaoImpl.java&#10;sub&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/ISubareaService.java&#10;BcDe&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcDecidedzone.java&#10;struts&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;StaffSe&#9;PSI&#9;JAVA://com.itheima.bos.web.action.StaffAction#staffService&#10;Struts&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;subarea.jsp&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;Sub&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;RegionAc&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java&#10;Bcreg&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;subarea.j&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;Region&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;subarea.java&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcSubarea.java&#10;BcSub&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;BcSta&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcStaff.hbm.xml&#10;BcR&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;str&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;stru&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;suba&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;subar&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;Staf&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;staff&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;strut&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;Regionac&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java&#10;Re&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java&#10;Base&#9;FILE&#9;file://H:/spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java" />
+    <property name="SearchEverywhereHistoryKey" value="action&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/NoticebillAction.java&#10;service&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/INoticebillService.java&#10;struts.&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;ICustomerService&#9;FILE&#9;file://H:/spring/bos-utils/src/main/java/com/itheima/crm/ICustomerService.java&#10;notice&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill.jsp&#10;Work&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java&#10;Notice&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml&#10;work&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml&#10;wo&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.hbm.xml&#10;wor&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.java&#10;Wo&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java&#10;im&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/impl/SubareaServiceImpl.java&#10;applic&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;User&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java&#10;UserAc&#9;PSI&#9;JAVA://com.itheima.bos.web.action.UserAction&#10;appli&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;Action&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java&#10;web&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;index&#9;FILE&#9;file://H:/spring/src/main/webapp/index.jsp&#10;appLI&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;web.xml&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;Staff&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcStaff.java&#10;Pagebe&#9;PSI&#9;JAVA://com.itheima.bos.utils.PageBean&#10;IStaffSe&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/IStaffService.java&#10;StaffAc&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;Decidedzon&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcDecidedzone.hbm.xml&#10;BcSu&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcSubarea.java&#10;DecidedzoneServiceImpl&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/impl/DecidedzoneServiceImpl.java&#10;Decide&#9;FILE&#9;file://H:/spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/DecidedzoneDaoImpl.java&#10;sub&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/ISubareaService.java&#10;BcDe&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcDecidedzone.java&#10;struts&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;StaffSe&#9;PSI&#9;JAVA://com.itheima.bos.web.action.StaffAction#staffService&#10;Struts&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;subarea.jsp&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;Sub&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;RegionAc&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java&#10;Bcreg&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;subarea.j&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;Region&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;subarea.java&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcSubarea.java&#10;BcSub&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;BcSta&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcStaff.hbm.xml&#10;BcR&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;str&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;stru&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;suba&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;subar&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;Staf&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;staff&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -1865,11 +2007,11 @@
       <recent name="com.itheima.bos.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\spring\bos-web\src\main\resources" />
-      <recent name="H:\spring\bos-web\src\main\webapp\WEB-INF\pages\base" />
-      <recent name="H:\spring\bos-utils\src\main\java" />
       <recent name="H:\spring\bos-dao\src\main\java\com\itheima\bos\dao\impl" />
       <recent name="H:\spring\bos-dao\src\main\java\com\itheima\bos\dao" />
+      <recent name="H:\spring\bos-service\src\main\java\com\itheima\bos\service\impl" />
+      <recent name="H:\spring\bos-service\src\main\java\com\itheima\bos\service" />
+      <recent name="H:\spring\bos-web\src\main\java\com\itheima\bos\web\action" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="com.itheima.bos.domain" />
@@ -2095,7 +2237,7 @@
       <workItem from="1504181696885" duration="2664000" />
       <workItem from="1504232305335" duration="11743000" />
       <workItem from="1504410739258" duration="629000" />
-      <workItem from="1504414518986" duration="4892000" />
+      <workItem from="1504414518986" duration="10224000" />
     </task>
     <task id="LOCAL-00001" summary="ssh frame body.">
       <created>1503114290499</created>
@@ -2279,11 +2421,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504417561438</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="QpNoticebill&#10;QpWorkbill&#10;QpWorkordermanager add success..">
+      <created>1504419437948</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1504419437948</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226389000" />
+    <option name="totallyTimeSpent" value="231721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2308,7 +2457,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25566342" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25566342" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69902915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2322,6 +2471,7 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.295764" sideWeight="0.5533981" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.295764" sideWeight="0.44660193" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30635402" sideWeight="0.5404531" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43040848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30635402" sideWeight="0.5404531" order="2" side_tool="true" content_ui="tabs" />
@@ -2332,7 +2482,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2399,7 +2548,8 @@
     <MESSAGE value="Staff cycle fix." />
     <MESSAGE value="bos08 crm success." />
     <MESSAGE value="QpNoticebill&#10;QpWorkbill&#10;QpWorkordermanager add." />
-    <option name="LAST_COMMIT_MESSAGE" value="QpNoticebill&#10;QpWorkbill&#10;QpWorkordermanager add." />
+    <MESSAGE value="QpNoticebill&#10;QpWorkbill&#10;QpWorkordermanager add success.." />
+    <option name="LAST_COMMIT_MESSAGE" value="QpNoticebill&#10;QpWorkbill&#10;QpWorkordermanager add success.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2465,13 +2615,25 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/WorkordermanageAction.java</url>
+          <line>17</line>
           <properties />
-          <option name="timeStamp" value="64" />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/WorkordermanageServiceImpl.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="65" />
+      <option name="time" value="68" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2489,147 +2651,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/pages/base/region.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/IBaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1534#1535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/DecidedzoneDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IDecidedzoneService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcSubarea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/DecidedzoneServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IStaffService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/StaffServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-utils/src/main/java/com/itheima/bos/utils/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.1.12/35e11973363a5f0548e617c615b41194d45b3308/ognl-3.1.12-sources.jar!/ognl/OgnlRuntime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13736">
-          <caret line="878" column="0" lean-forward="false" selection-start-line="878" selection-start-column="0" selection-end-line="878" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcStaff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/base/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#1994#1995#0" expanded="false" />
-            <element signature="e#2013#2014#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spring/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2702,41 +2723,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-utils/src/main/java/com/itheima/crm/ICustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/SubareaServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="69" column="20" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-          <folding>
-            <element signature="e#1900#1901#0" expanded="false" />
-            <element signature="e#1925#1926#0" expanded="false" />
-            <element signature="e#1983#1984#0" expanded="false" />
-            <element signature="e#2020#2021#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2903,8 +2894,186 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/NoticebillDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/INoticebillDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IWorkbillDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/WorkbillDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-utils/src/main/java/com/itheima/crm/ICustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="74" column="50" lean-forward="true" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+          <caret line="51" column="64" lean-forward="false" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/INoticebillService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/NoticebillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/pages/qupai/quickworkorder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/webapp/easyui/10-datagrid_edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/NoticebillAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/IWorkordermanageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/IWorkordermanageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/WorkordermangeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/WorkordermanageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/WorkordermanageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

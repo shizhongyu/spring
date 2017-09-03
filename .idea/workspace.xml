@@ -7,6 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f25a9ce1-aca3-44b2-bd6a-2bfbec3c37bd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_main.iml" afterPath="$PROJECT_DIR$/../spring/.idea/modules/bos-domain/bos-domain_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../spring/out/" />
@@ -136,31 +140,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QpNoticebill.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java">
+      <file leaf-file-name="QpWorkbill.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QpNoticebill.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/QpNoticebill.hbm.xml">
+      <file leaf-file-name="QpWorkbill.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BcSubarea.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcSubarea.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="361">
+              <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -186,51 +180,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QpNoticebill.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="59" column="62" lean-forward="false" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
+            <state relative-caret-position="228">
+              <caret line="74" column="50" lean-forward="true" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BcStaff.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcStaff.hbm.xml">
+      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="342">
+              <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BcRegion.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.hbm.xml">
+      <file leaf-file-name="QpNoticebill.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+              <folding>
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#1861#1862#0" expanded="true" />
+                <element signature="e#1900#1901#0" expanded="true" />
+                <element signature="e#1932#1933#0" expanded="true" />
+                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#1993#1994#0" expanded="true" />
+                <element signature="e#2036#2037#0" expanded="true" />
+                <element signature="e#2070#2071#0" expanded="true" />
+                <element signature="e#2103#2104#0" expanded="true" />
+                <element signature="e#2135#2136#0" expanded="true" />
+                <element signature="e#2182#2183#0" expanded="true" />
+                <element signature="e#2224#2225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QpNoticebill.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/QpNoticebill.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BcDecidedzone.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcDecidedzone.hbm.xml">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcDecidedzone.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BcDecidedzone.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcDecidedzone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -273,6 +291,7 @@
       <find>load</find>
       <find>pageList</find>
       <find>name</find>
+      <find>workbills</find>
     </findStrings>
     <replaceStrings>
       <replace>TUser</replace>
@@ -1427,11 +1446,11 @@
         <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/SubareaServiceImpl.java" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java" />
         <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java" />
-        <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java" />
         <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.java" />
         <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml" />
         <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml" />
+        <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java" />
+        <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
       </list>
     </option>
@@ -1830,7 +1849,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3004926" />
-    <property name="SearchEverywhereHistoryKey" value="Notice&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml&#10;work&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml&#10;wo&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.hbm.xml&#10;wor&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.java&#10;Wo&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java&#10;im&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/impl/SubareaServiceImpl.java&#10;applic&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;User&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java&#10;UserAc&#9;PSI&#9;JAVA://com.itheima.bos.web.action.UserAction&#10;appli&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;Action&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java&#10;action&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java&#10;web&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;index&#9;FILE&#9;file://H:/spring/src/main/webapp/index.jsp&#10;appLI&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;web.xml&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;Staff&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcStaff.java&#10;Pagebe&#9;PSI&#9;JAVA://com.itheima.bos.utils.PageBean&#10;IStaffSe&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/IStaffService.java&#10;StaffAc&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;Decidedzon&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcDecidedzone.hbm.xml&#10;BcSu&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcSubarea.java&#10;DecidedzoneServiceImpl&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/impl/DecidedzoneServiceImpl.java&#10;Decide&#9;FILE&#9;file://H:/spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/DecidedzoneDaoImpl.java&#10;sub&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/ISubareaService.java&#10;BcDe&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcDecidedzone.java&#10;struts&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;StaffSe&#9;PSI&#9;JAVA://com.itheima.bos.web.action.StaffAction#staffService&#10;Struts&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;subarea.jsp&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;Sub&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;RegionAc&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java&#10;Bcreg&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;subarea.j&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;Region&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;subarea.java&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcSubarea.java&#10;BcSub&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;BcSta&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcStaff.hbm.xml&#10;BcR&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;str&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;stru&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;suba&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;subar&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;Staf&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;staff&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;strut&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;Regionac&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java&#10;Re&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java&#10;Base&#9;FILE&#9;file://H:/spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java&#10;service&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/IStaffService.java" />
+    <property name="SearchEverywhereHistoryKey" value="Work&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java&#10;Notice&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml&#10;work&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml&#10;wo&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.hbm.xml&#10;wor&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.java&#10;Wo&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java&#10;im&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/impl/SubareaServiceImpl.java&#10;applic&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;User&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java&#10;UserAc&#9;PSI&#9;JAVA://com.itheima.bos.web.action.UserAction&#10;appli&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;Action&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java&#10;action&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java&#10;web&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;index&#9;FILE&#9;file://H:/spring/src/main/webapp/index.jsp&#10;appLI&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/applicationContext.xml&#10;web.xml&#9;FILE&#9;file://H:/spring/.idea/modules/bos-web/WEB-INF/web.xml&#10;Staff&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcStaff.java&#10;Pagebe&#9;PSI&#9;JAVA://com.itheima.bos.utils.PageBean&#10;IStaffSe&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/IStaffService.java&#10;StaffAc&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;Decidedzon&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcDecidedzone.hbm.xml&#10;BcSu&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcSubarea.java&#10;DecidedzoneServiceImpl&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/impl/DecidedzoneServiceImpl.java&#10;Decide&#9;FILE&#9;file://H:/spring/bos-dao/src/main/java/com/itheima/bos/dao/impl/DecidedzoneDaoImpl.java&#10;sub&#9;FILE&#9;file://H:/spring/bos-service/src/main/java/com/itheima/bos/service/ISubareaService.java&#10;BcDe&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcDecidedzone.java&#10;struts&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;StaffSe&#9;PSI&#9;JAVA://com.itheima.bos.web.action.StaffAction#staffService&#10;Struts&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;subarea.jsp&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;Sub&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;RegionAc&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java&#10;Bcreg&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;subarea.j&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;Region&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;subarea.java&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcSubarea.java&#10;BcSub&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;BcSta&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcStaff.hbm.xml&#10;BcR&#9;FILE&#9;file://H:/spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java&#10;str&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;stru&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;suba&#9;FILE&#9;file://H:/spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;subar&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/BcSubarea.hbm.xml&#10;Staf&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;staff&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java&#10;strut&#9;FILE&#9;file://H:/spring/bos-web/src/main/resources/struts.xml&#10;Regionac&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java&#10;Re&#9;FILE&#9;file://H:/spring/bos-web/src/main/java/com/itheima/bos/web/action/RegionAction.java&#10;Base&#9;FILE&#9;file://H:/spring/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -2076,7 +2095,7 @@
       <workItem from="1504181696885" duration="2664000" />
       <workItem from="1504232305335" duration="11743000" />
       <workItem from="1504410739258" duration="629000" />
-      <workItem from="1504414518986" duration="3028000" />
+      <workItem from="1504414518986" duration="4892000" />
     </task>
     <task id="LOCAL-00001" summary="ssh frame body.">
       <created>1503114290499</created>
@@ -2253,11 +2272,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504417429837</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="QpNoticebill&#10;QpWorkbill&#10;QpWorkordermanager add.">
+      <created>1504417561438</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1504417561438</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224525000" />
+    <option name="totallyTimeSpent" value="226389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2290,7 +2316,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6699029" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42718446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5355987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.295764" sideWeight="0.5533981" order="3" side_tool="true" content_ui="tabs" />
@@ -2463,13 +2489,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="258" column="63" lean-forward="false" selection-start-line="258" selection-start-column="59" selection-end-line="258" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcRegion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -2553,14 +2572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcDecidedzone.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2737,33 +2748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="30" column="55" lean-forward="false" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-          <folding>
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1699#1700#0" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2780,22 +2764,6 @@
             <element signature="e#840#841#0" expanded="true" />
             <element signature="e#868#869#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcDecidedzone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2823,10 +2791,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java">
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcSubarea.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="88" lean-forward="true" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcRegion.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcDecidedzone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcDecidedzone.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -2850,31 +2858,53 @@
     <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/QpNoticebill.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/BcSubarea.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="342">
+          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="293">
+          <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <folding>
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1993#1994#0" expanded="true" />
+            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+            <element signature="e#2224#2225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="59" column="62" lean-forward="false" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
+        <state relative-caret-position="228">
+          <caret line="74" column="50" lean-forward="true" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
           <folding />
         </state>
       </provider>

@@ -44,6 +44,7 @@ public class QpWorkbill {
         this.remark = remark;
     }
 
+
     @Id
     @Column(name = "id")
     public String getId() {

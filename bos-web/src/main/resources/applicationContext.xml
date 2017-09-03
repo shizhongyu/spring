@@ -82,5 +82,5 @@
     <!--&lt;!&ndash; 注册crm客户端代理对象 &ndash;&gt;-->
     <jaxws:client id="crmClient"
                   serviceClass="com.itheima.crm.ICustomerService"
-                  address="http://192.168.3.234:8080/crm_heima32/service/customer"/>
+                  address="http://localhost:8080/crm_heima32/service/customer"/>
 </beans>

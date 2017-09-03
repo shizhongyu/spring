@@ -57,6 +57,30 @@ public class QpNoticebill {
         this.workbills = workbills;
     }
 
+    public TUser getUser() {
+        return user;
+    }
+
+    public void setUser(TUser user) {
+        this.user = user;
+    }
+
+    public BcStaff getStaff() {
+        return staff;
+    }
+
+    public void setStaff(BcStaff staff) {
+        this.staff = staff;
+    }
+
+    public Set getWorkbills() {
+        return workbills;
+    }
+
+    public void setWorkbills(Set workbills) {
+        this.workbills = workbills;
+    }
+
     @Id
     @Column(name = "id")
     public String getId() {

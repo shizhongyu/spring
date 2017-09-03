@@ -6,18 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f25a9ce1-aca3-44b2-bd6a-2bfbec3c37bd" name="Default" comment="bos08 crm success.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/QpNoticebill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/QpWorkbill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/QpWorkordermanage.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/../spring/bos-domain/src/main/java/hibernate.cfg.xml" />
+    <list default="true" id="f25a9ce1-aca3-44b2-bd6a-2bfbec3c37bd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../spring/out/" />
     <ignored path="$PROJECT_DIR$/../spring/.gradle/" />
@@ -196,11 +186,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QpNoticebill.hbm.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QpNoticebill.hbm.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
               <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="59" column="62" lean-forward="false" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -231,16 +231,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BcDecidedzone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/BcDecidedzone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1431,7 +1421,6 @@
         <option value="$PROJECT_DIR$/../spring/bos-utils/src/main/java/crm/Customer.java" />
         <option value="$PROJECT_DIR$/../spring/bos-web/build.gradle" />
         <option value="$PROJECT_DIR$/../spring/bos-utils/build.gradle" />
-        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java" />
         <option value="$PROJECT_DIR$/../spring/bos-web/src/main/java/com/itheima/bos/web/action/SubareaAction.java" />
         <option value="$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/ISubareaService.java" />
@@ -1443,6 +1432,7 @@
         <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkordermanage.java" />
         <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpWorkbill.hbm.xml" />
         <option value="$PROJECT_DIR$/../spring/bos-domain/src/main/java/com/itheima/bos/domain/QpNoticebill.hbm.xml" />
+        <option value="$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -2086,7 +2076,7 @@
       <workItem from="1504181696885" duration="2664000" />
       <workItem from="1504232305335" duration="11743000" />
       <workItem from="1504410739258" duration="629000" />
-      <workItem from="1504414518986" duration="2849000" />
+      <workItem from="1504414518986" duration="3028000" />
     </task>
     <task id="LOCAL-00001" summary="ssh frame body.">
       <created>1503114290499</created>
@@ -2256,11 +2246,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504255074293</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="QpNoticebill&#10;QpWorkbill&#10;QpWorkordermanager add.">
+      <created>1504417429837</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1504417429837</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224346000" />
+    <option name="totallyTimeSpent" value="224525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2375,7 +2372,8 @@
     <MESSAGE value="BcDecidedzone success&#10;BcStaff cycle error." />
     <MESSAGE value="Staff cycle fix." />
     <MESSAGE value="bos08 crm success." />
-    <option name="LAST_COMMIT_MESSAGE" value="bos08 crm success." />
+    <MESSAGE value="QpNoticebill&#10;QpWorkbill&#10;QpWorkordermanager add." />
+    <option name="LAST_COMMIT_MESSAGE" value="QpNoticebill&#10;QpWorkbill&#10;QpWorkordermanager add." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2700,14 +2698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="79" column="32" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spring/bos-service/src/main/java/com/itheima/bos/service/impl/SubareaServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2877,6 +2867,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring/bos-web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="59" column="62" lean-forward="false" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
           <folding />
         </state>
       </provider>

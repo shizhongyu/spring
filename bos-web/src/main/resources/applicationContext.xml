@@ -55,6 +55,9 @@
                 <value>classpath:BcRegion.hbm.xml</value>
                 <value>classpath:BcStaff.hbm.xml</value>
                 <value>classpath:BcSubarea.hbm.xml</value>
+                <value>classpath:QpNoticebill.hbm.xml</value>
+                <value>classpath:QpWorkbill.hbm.xml</value>
+                <value>classpath:QpWorkordermanage.hbm.xml</value>
                 <!--错误写法-->
                 <!--<value>classpath:com/itheima/bos/domain/*.xml</value>-->
                 <!--<value>classpath:com/itheima/bos/domain/TUser.hbm.xml</value>-->

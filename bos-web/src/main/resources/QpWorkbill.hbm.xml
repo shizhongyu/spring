@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.itheima.bos.domain.QpWorkbill" table="qp_workbill" schema="ssh">
+        <id name="id" type="java.lang.String">
+            <column name="id" length="32"/>
+            <generator class="uuid"/>
+        </id>
+        <many-to-one name="noticebill" class="com.itheima.bos.domain.QpNoticebill" fetch="select">
+            <column name="noticebill_id" length="32" />
+        </many-to-one>
+        <many-to-one name="staff" class="com.itheima.bos.domain.BcStaff" fetch="select">
+            <column name="staff_id" length="32" />
+        </many-to-one>
+        <property name="type" column="type"/>
+        <property name="pickstate" column="pickstate"/>
+        <property name="buildtime" column="buildtime"/>
+        <property name="attachbilltimes" column="attachbilltimes"/>
+        <property name="remark" column="remark"/>
+    </class>
+</hibernate-mapping>

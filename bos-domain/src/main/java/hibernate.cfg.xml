@@ -17,12 +17,17 @@
       <mapping class="com.itheima.bos.domain.BcStaff"/>
       <mapping resource="com/itheima/bos/domain/BcSubarea.hbm.xml"/>
       <mapping class="com.itheima.bos.domain.BcSubarea"/>
-    <mapping class="com.itheima.bos.domain.QpNoticebill"/>
-    <mapping resource="com/itheima/bos/domain/QpNoticebill.hbm.xml"/>
-    <mapping resource="com/itheima/bos/domain/QpWorkbill.hbm.xml"/>
-    <mapping class="com.itheima.bos.domain.QpWorkbill"/>
-    <mapping resource="com/itheima/bos/domain/QpWorkordermanage.hbm.xml"/>
-    <mapping class="com.itheima.bos.domain.QpWorkordermanage"/>
+      <mapping class="com.itheima.bos.domain.QpNoticebill"/>
+      <mapping resource="com/itheima/bos/domain/QpNoticebill.hbm.xml"/>
+      <mapping resource="com/itheima/bos/domain/QpWorkbill.hbm.xml"/>
+      <mapping class="com.itheima.bos.domain.QpWorkbill"/>
+      <mapping resource="com/itheima/bos/domain/QpWorkordermanage.hbm.xml"/>
+      <mapping class="com.itheima.bos.domain.QpWorkordermanage"/>
+    <mapping resource="com/itheima/bos/domain/AuthFunction.hbm.xml"/>
+    <mapping class="com.itheima.bos.domain.AuthFunction"/>
+    <mapping resource="com/itheima/bos/domain/AuthRole.hbm.xml"/>
+    <mapping class="com.itheima.bos.domain.AuthRole"/>
+
     <!--<property name="connection.username">root</property>-->
     <!--<property name="connection.password">szy19971215</property>-->
 

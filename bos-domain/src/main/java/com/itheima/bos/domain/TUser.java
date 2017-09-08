@@ -2,6 +2,8 @@ package com.itheima.bos.domain;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "t_user", schema = "ssh", catalog = "")
@@ -15,6 +17,46 @@ public class TUser {
     private String station;
     private String telephone;
     private String remark;
+    private Set noticebills = new HashSet(0);
+    private Set roles = new HashSet(0);
+
+
+    public TUser() {
+    }
+
+    public TUser(String id) {
+        this.id = id;
+    }
+
+    public TUser(String id, String username, String password, Double salary, Date birthday, String gender, String station, String telephone, String remark, Set noticebills, Set roles) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.salary = salary;
+        this.birthday = birthday;
+        this.gender = gender;
+        this.station = station;
+        this.telephone = telephone;
+        this.remark = remark;
+        this.noticebills = noticebills;
+        this.roles = roles;
+    }
+
+    public Set getNoticebills() {
+        return noticebills;
+    }
+
+    public void setNoticebills(Set noticebills) {
+        this.noticebills = noticebills;
+    }
+
+    public Set getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set roles) {
+        this.roles = roles;
+    }
 
     @Id
     @Column(name = "id")

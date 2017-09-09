@@ -35,6 +35,7 @@ dependencies {
     compile group: 'org.apache.struts', name: 'struts2-spring-plugin', version: '2.5.12'
     compile group: 'org.apache.struts', name: 'struts2-convention-plugin', version: '2.5.12'
 //    compile group: 'org.springframework', name: 'spring', version: '2.5.6'
+    compile group: 'org.apache.shiro', name: 'shiro-all', version: '1.2.2'
     compile group: 'javax.el', name: 'javax.el-api', version: '3.0.0'
     compile group: 'c3p0', name: 'c3p0', version: '0.9.1.2'
     compile(

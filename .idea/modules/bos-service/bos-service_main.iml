@@ -24,6 +24,8 @@
     <orderEntry type="module" module-name="bos-dao_main" />
     <orderEntry type="module" module-name="bos-domain_main" />
     <orderEntry type="module" module-name="bos-utils_main" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-all:pom:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-spring:1.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.3.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.3.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.9.RELEASE" level="project" />
@@ -44,6 +46,8 @@
     <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-transports-http:3.1.12" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.struts:struts2-core:2.5.12" level="project" />
     <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-core:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-web:1.4.0" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: dom4j:dom4j:1.6.1" level="project" />
@@ -67,15 +71,26 @@
     <orderEntry type="library" name="Gradle: commons-fileupload:commons-fileupload:1.3.3" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-lang:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-cache:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-crypto-hash:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-crypto-cipher:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-config-core:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-config-ogdl:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-event:1.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.ws.xmlschema:xmlschema-core:2.2.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-wsdl:3.1.12" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-databinding-jaxb:3.1.12" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-ws-policy:3.1.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-crypto-core:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: commons-beanutils:commons-beanutils:1.9.3" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
     <orderEntry type="library" name="Gradle: wsdl4j:wsdl4j:1.6.3" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.xml.bind:jaxb-impl:2.2.11" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.xml.bind:jaxb-core:2.2.11" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.neethi:neethi:3.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: commons-collections:commons-collections:3.2.2" level="project" />
   </component>
 </module>

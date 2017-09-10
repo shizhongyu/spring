@@ -15,8 +15,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="bos-web_main" />
           <element id="dir-copy" path="$PROJECT_DIR$/../spring/bos-web/out/production/resources" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-all:pom:1.4.0" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-spring:1.4.0" />
           <element id="library" level="project" name="Gradle: net.sf.json-lib:json-lib:jdk15:2.4" />
           <element id="library" level="project" name="Gradle: org.apache.poi:poi:3.16" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.9.RELEASE" />
@@ -90,7 +92,19 @@
           <element id="library" level="project" name="Gradle: com.sun.xml.bind:jaxb-impl:2.2.11" />
           <element id="library" level="project" name="Gradle: com.sun.xml.bind:jaxb-core:2.2.11" />
           <element id="library" level="project" name="Gradle: org.apache.neethi:neethi:3.0.3" />
-          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-core:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-web:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-lang:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-cache:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-crypto-hash:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-crypto-cipher:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-config-core:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-config-ogdl:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-event:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-crypto-core:1.4.0" />
+          <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.9.3" />
+          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
           <element id="library" level="project" name="Gradle: commons-lang:commons-lang:2.5" />
           <element id="library" level="project" name="Gradle: net.sf.ezmorph:ezmorph:1.0.6" />
           <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.10" />
@@ -98,7 +112,6 @@
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm:5.1" />
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm-commons:5.1" />
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm-tree:5.1" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
         </element>
       </element>
     </root>

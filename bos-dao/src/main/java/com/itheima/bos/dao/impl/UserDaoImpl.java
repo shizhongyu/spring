@@ -21,4 +21,13 @@ public class UserDaoImpl extends BaseDaoImpl<TUser> implements IUserDao {
 		}
 		return null;
 	}
+
+	public TUser findUserByUsername(String username) {
+		String hql = "FROM TUser u WHERE u.username = ?";
+		List<TUser> list = (List<TUser>) this.getHibernateTemplate().find(hql, username);
+		if(list != null && list.size() > 0){
+			return list.get(0);
+		}
+		return null;
+	}
 }

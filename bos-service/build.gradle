@@ -18,4 +18,6 @@ dependencies {
     )
     testCompile group: 'junit', name: 'junit', version: '4.11'
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.shiro', name: 'shiro-all', version: '1.4.0', ext: 'pom'
+    compile group: 'org.apache.shiro', name: 'shiro-spring', version: '1.4.0'
 }

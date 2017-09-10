@@ -15,6 +15,7 @@
         <element id="directory" name="classes">
           <element id="module-output" name="bos-service_main" />
           <element id="dir-copy" path="$PROJECT_DIR$/../spring/bos-service/out/production/resources" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-all:pom:1.4.0" />
         </element>
         <element id="directory" name="lib">
           <element id="archive" name="com.spring-bos-dao-1.0-SNAPSHOT.jar">
@@ -82,6 +83,20 @@
           <element id="library" level="project" name="Gradle: com.sun.xml.bind:jaxb-impl:2.2.11" />
           <element id="library" level="project" name="Gradle: com.sun.xml.bind:jaxb-core:2.2.11" />
           <element id="library" level="project" name="Gradle: org.apache.neethi:neethi:3.0.3" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-spring:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-core:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-web:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-lang:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-cache:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-crypto-hash:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-crypto-cipher:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-config-core:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-config-ogdl:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-event:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-crypto-core:1.4.0" />
+          <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.9.3" />
+          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
         </element>
       </element>
     </root>

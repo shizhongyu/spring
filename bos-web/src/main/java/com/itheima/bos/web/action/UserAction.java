@@ -1,20 +1,21 @@
 package com.itheima.bos.web.action;
 
 import com.itheima.bos.domain.TUser;
+import com.itheima.bos.service.IUserService;
 import com.itheima.bos.utils.BOSUtils;
-import com.itheima.crm.Customer;
+import com.itheima.bos.web.action.base.BaseAction;
 import com.itheima.crm.ICustomerService;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationToken;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
-import com.itheima.bos.service.IUserService;
-import com.itheima.bos.web.action.base.BaseAction;
-
 import java.io.IOException;
-import java.util.List;
 
 @Controller
 @Scope("prototype")
@@ -34,23 +35,23 @@ public class UserAction extends BaseAction<TUser> {
 	 * 用户登录
 	 */
 	public String login(){
-		List<Customer> list2 =  proxy.findAll();
+//		List<Customer> list2 =  proxy.findAll();
 		//从Session中获取生成的验证码
 		String validatecode = (String) ServletActionContext.getRequest().getSession().getAttribute("key");
 		//校验验证码是否输入正确
 		if(StringUtils.isNotBlank(checkcode) && checkcode.equals(validatecode) || true){
-			//输入的验证码正确
-			TUser user = userService.login(model);
-			if(user != null){
-				//登录成功,将user对象放入session，跳转到首页
-				ServletActionContext.getRequest().getSession().setAttribute("loginUser", user);
-				return HOME;
-			}else{
-				//登录失败，,设置提示信息，跳转到登录页面
-				//输入的验证码错误,设置提示信息，跳转到登录页面
-				this.addActionError("用户名或者密码输入错误！");
+			//使用shiro框架提供的方式进行认证操作
+			Subject subject = SecurityUtils.getSubject();//获得当前用户对象,状态为“未认证”
+			AuthenticationToken token = new UsernamePasswordToken(model.getUsername(),model.getPassword());//创建用户名密码令牌对象
+			try{
+				subject.login(token);
+			}catch(Exception e){
+				e.printStackTrace();
 				return LOGIN;
 			}
+			TUser user = (TUser) subject.getPrincipal();
+			ServletActionContext.getRequest().getSession().setAttribute("loginUser", user);
+			return HOME;
 		}else{
 			//输入的验证码错误,设置提示信息，跳转到登录页面
 			this.addActionError("输入的验证码错误！");

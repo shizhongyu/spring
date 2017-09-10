@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -47,7 +48,7 @@
 			$.messager.confirm("删除确认","你确定要删除选中的取派员吗？",function(r){
 				if(r){
 					
-					var array = [];
+					var array = new Array();
 					//确定,发送请求
 					//获取所有选中的取派员的id
 					for(var i=0;i<rows.length;i++){
@@ -81,12 +82,18 @@
 		text : '增加',
 		iconCls : 'icon-add',
 		handler : doAdd
-	}, {
+	}, 
+	
+	<shiro:hasPermission name="staff-delete">
+	{
 		id : 'button-delete',
 		text : '删除',
 		iconCls : 'icon-cancel',
 		handler : doDelete
-	},{
+	},
+	</shiro:hasPermission>
+	
+	{
 		id : 'button-save',
 		text : '还原',
 		iconCls : 'icon-save',

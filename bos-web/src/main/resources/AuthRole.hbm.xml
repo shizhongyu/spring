@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.itheima.bos.domain.AuthRole" table="auth_role" schema="ssh">
+        <id name="id">
+            <column name="id" sql-type="varchar(32)" length="32"/>
+        </id>
+        <property name="name">
+            <column name="name" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="code">
+            <column name="code" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="description">
+            <column name="description" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <set name="functions" table="role_function" >
+            <key>
+                <column name="role_id" length="32" not-null="true" />
+            </key>
+            <many-to-many entity-name="com.itheima.bos.domain.AuthFunction">
+                <column name="function_id" length="32" not-null="true" />
+            </many-to-many>
+        </set>
+        <set name="users" inverse="true" table="user_role" >
+            <key>
+                <column name="role_id" length="32" not-null="true" />
+            </key>
+            <many-to-many entity-name="com.itheima.bos.domain.TUser">
+                <column name="user_id" length="32" not-null="true" />
+            </many-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

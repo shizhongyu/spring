@@ -2,12 +2,8 @@ package com.itheima.bos.web.action;
 
 import com.itheima.bos.domain.BcStaff;
 import com.itheima.bos.service.IStaffService;
-import com.itheima.bos.utils.PageBean;
 import com.itheima.bos.web.action.base.BaseAction;
-import net.sf.json.JSONObject;
-import net.sf.json.JsonConfig;
-import org.apache.struts2.ServletActionContext;
-import org.hibernate.criterion.DetachedCriteria;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
@@ -51,6 +47,7 @@ public class StaffAction extends BaseAction<BcStaff>{
 	/**
 	 * 取派员批量删除
 	 */
+	@RequiresPermissions("staff-edit")
 	public String deleteBatch(){
 		staffService.deleteBatch(ids);
 		return LIST;

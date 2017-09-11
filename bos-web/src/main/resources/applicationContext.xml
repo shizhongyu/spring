@@ -111,6 +111,12 @@
         </property>
     </bean>
 
+    <!-- shiro的生命周期处理器 -->
+    <!--<bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor" />-->
+
+    <!-- 使用shiro安全检查注解 -->
+    <!--<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" depends-on="lifecycleBeanPostProcessor" />-->
+
     <!-- 注册安全管理器对象 -->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="bosRealm"/>
@@ -119,14 +125,20 @@
     <!-- 注册realm -->
     <bean id="bosRealm" class="com.itheima.bos.service.BOSRealm"></bean>
 
-    <!-- 开启shiro框架注解支持 -->
-    <bean id="defaultAdvisorAutoProxyCreator"
-          class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator">
-        <!-- 必须使用cglib方式为Action对象创建代理对象 -->
-        <property name="proxyTargetClass" value="true"/>
+    <!-- 基于spring自动代理方式为service创建代理对象,实现权限控制 -->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator">
+        <!-- 强制使用cglibdaili -->
+        <property name="proxyTargetClass" value="true"></property>
+    </bean>
+    <!-- 配置切面 -->
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"></property>
     </bean>
 
     <!-- 配置shiro框架提供的切面类，用于创建代理对象 -->
     <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor"/>
+
+    <tx:annotation-driven proxy-target-class="true" transaction-manager="transactionManager" />
+
 
 </beans>

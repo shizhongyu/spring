@@ -47,7 +47,7 @@ public class StaffAction extends BaseAction<BcStaff>{
 	/**
 	 * 取派员批量删除
 	 */
-	@RequiresPermissions("staff-edit")
+//	@RequiresPermissions("staff-edit")
 	public String deleteBatch(){
 		staffService.deleteBatch(ids);
 		return LIST;

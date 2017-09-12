@@ -3,7 +3,6 @@ package com.itheima.bos.web.action;
 import com.itheima.bos.domain.BcStaff;
 import com.itheima.bos.service.IStaffService;
 import com.itheima.bos.web.action.base.BaseAction;
-import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;

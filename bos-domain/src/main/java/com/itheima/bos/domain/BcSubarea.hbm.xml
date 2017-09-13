@@ -12,7 +12,7 @@
         <many-to-one name="decidedzone" class="com.itheima.bos.domain.BcDecidedzone" fetch="select">
             <column name="decidedzone_id" length="32" />
         </many-to-one>
-        <many-to-one name="region" class="com.itheima.bos.domain.BcRegion" fetch="select">
+        <many-to-one lazy="false" name="region" class="com.itheima.bos.domain.BcRegion" fetch="select">
             <column name="region_id" length="32" />
         </many-to-one>
         <property name="addresskey" column="addresskey"/>

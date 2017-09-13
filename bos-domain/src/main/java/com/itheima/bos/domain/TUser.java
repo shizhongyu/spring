@@ -2,6 +2,7 @@ package com.itheima.bos.domain;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.text.SimpleDateFormat;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -18,9 +19,25 @@ public class TUser {
     private String telephone;
     private String remark;
     private Set noticebills = new HashSet(0);
-    private Set roles = new HashSet(0);
+    private Set<AuthRole> roles = new HashSet(0);
 
+    public String getRoleNames(){
+        String roleNames = "";
+        for(AuthRole role : roles){
+            String name = role.getName();
+            roleNames += name + " ";
+        }
+        return roleNames;
+    }
 
+    public String getBirthdayString(){
+        if(birthday != null){
+            String format = new SimpleDateFormat("yyyy-MM-dd").format(birthday);
+            return format;
+        }else{
+            return "暂无数据";
+        }
+    }
     public TUser() {
     }
 
@@ -28,7 +45,7 @@ public class TUser {
         this.id = id;
     }
 
-    public TUser(String id, String username, String password, Double salary, Date birthday, String gender, String station, String telephone, String remark, Set noticebills, Set roles) {
+    public TUser(String id, String username, String password, Double salary, Date birthday, String gender, String station, String telephone, String remark, Set noticebills, Set<AuthRole> roles) {
         this.id = id;
         this.username = username;
         this.password = password;
@@ -41,6 +58,20 @@ public class TUser {
         this.noticebills = noticebills;
         this.roles = roles;
     }
+
+//    public TUser(String id, String username, String password, Double salary, Date birthday, String gender, String station, String telephone, String remark, Set noticebills, Set roles) {
+//        this.id = id;
+//        this.username = username;
+//        this.password = password;
+//        this.salary = salary;
+//        this.birthday = birthday;
+//        this.gender = gender;
+//        this.station = station;
+//        this.telephone = telephone;
+//        this.remark = remark;
+//        this.noticebills = noticebills;
+//        this.roles = roles;
+//    }
 
     public Set getNoticebills() {
         return noticebills;

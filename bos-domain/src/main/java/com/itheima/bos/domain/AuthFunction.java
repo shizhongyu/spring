@@ -9,6 +9,12 @@ import java.util.Set;
 public class AuthFunction {
     private String id;
 
+    public String getpId(){
+        if(parentFunction == null){
+            return "0";
+        }
+        return parentFunction.getId();
+    }
 
     public AuthFunction() {
     }

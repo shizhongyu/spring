@@ -6,7 +6,7 @@
 
     <class name="com.itheima.bos.domain.BcDecidedzone" table="bc_decidedzone" schema="ssh">
         <id name="id" column="id"/>
-        <many-to-one name="staff" class="com.itheima.bos.domain.BcStaff" fetch="select">
+        <many-to-one lazy="false" name="staff" class="com.itheima.bos.domain.BcStaff" fetch="select">
         <column name="staff_id" length="32" />
         </many-to-one>
         <property name="name" column="name"/>

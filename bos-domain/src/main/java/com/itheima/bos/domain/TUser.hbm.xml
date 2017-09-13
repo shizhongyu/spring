@@ -5,7 +5,10 @@
 <hibernate-mapping>
 
     <class name="com.itheima.bos.domain.TUser" table="t_user" schema="ssh">
-        <id name="id" column="id"/>
+        <id name="id" type="java.lang.String">
+        <column name="id" length="32" />
+        <generator class="uuid" />
+        </id>
         <property name="username" column="username"/>
         <property name="password" column="password"/>
         <property name="salary" column="salary"/>

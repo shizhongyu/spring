@@ -20,8 +20,8 @@ import java.io.IOException;
 @Controller
 @Scope("prototype")
 public class UserAction extends BaseAction<TUser> {
-	@Autowired
-	private ICustomerService proxy;
+//	@Autowired
+//	private ICustomerService proxy;
 	//属性驱动，接收页面输入的验证码
 	private String checkcode;
 	public void setCheckcode(String checkcode) {
@@ -87,4 +87,27 @@ public class UserAction extends BaseAction<TUser> {
 		return NONE;
 	}
 
+	//属性驱动，接收多个角色id
+	private String[] roleIds;
+	public void setRoleIds(String[] roleIds) {
+		this.roleIds = roleIds;
+	}
+
+	/**
+	 * 添加用户
+	 */
+	public String add(){
+		userService.save(model,roleIds);
+		return LIST;
+	}
+
+	/**
+	 * 用户数据分页查询
+	 */
+	public String pageQuery(){
+		userService.pageQuery(pageBean);
+//		,"gender","station","telephone","remark"
+		this.java2Json(pageBean, new String[]{"noticebills","roles","birthday"});
+		return NONE;
+	}
 }

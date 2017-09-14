@@ -97,6 +97,7 @@
           <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-crypto-core:1.4.0" />
           <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.9.3" />
           <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.mail/javax.mail-api/1.6.0/1941270d3b04ded5bdc274351450b4afe47be080/javax.mail-api-1.6.0.jar" />
         </element>
       </element>
     </root>

@@ -28,6 +28,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.quartz-scheduler:quartz:2.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.quartz-scheduler:quartz-jobs:2.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-all:pom:1.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-spring:1.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-ehcache:1.4.0" level="project" />
@@ -53,6 +55,9 @@
     <orderEntry type="module" module-name="bos-domain_main" />
     <orderEntry type="library" name="Gradle: org.apache.struts:struts2-core:2.5.12" level="project" />
     <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.mchange:c3p0:0.9.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.mchange:mchange-commons-java:0.2.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.zaxxer:HikariCP-java6:2.3.13" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-core:1.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-web:1.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.shiro:shiro-cache:1.4.0" level="project" />
@@ -65,6 +70,7 @@
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm-commons:5.1" level="project" />
     <orderEntry type="module" module-name="bos-dao_main" />
     <orderEntry type="module" module-name="bos-utils_main" />
+    <orderEntry type="library" name="Gradle: javax.mail:javax.mail-api:1.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.8.2" level="project" />
     <orderEntry type="library" name="Gradle: commons-fileupload:commons-fileupload:1.3.3" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.4" level="project" />

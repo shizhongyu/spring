@@ -19,6 +19,7 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-spring:1.4.0" />
+          <element id="library" level="project" name="Gradle: net.sf.ehcache:ehcache:2.10.4" />
           <element id="library" level="project" name="Gradle: net.sf.json-lib:json-lib:jdk15:2.4" />
           <element id="library" level="project" name="Gradle: org.apache.poi:poi:3.16" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.9.RELEASE" />
@@ -112,6 +113,8 @@
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm:5.1" />
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm-commons:5.1" />
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm-tree:5.1" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.shiro/shiro-ehcache/1.4.0/376ff7182c4eded0461bd87e0d8ac92f71b1e959/shiro-ehcache-1.4.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.6.11/fae7f84a5ffabe1b814e40190650c0ad5aeda5b1/ehcache-core-2.6.11.jar" />
         </element>
       </element>
     </root>

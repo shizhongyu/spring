@@ -43,4 +43,14 @@ public class FunctionAction extends BaseAction<AuthFunction>{
 		this.java2Json(pageBean, new String[]{"parentFunction","roles","children"});
 		return NONE;
 	}
+
+
+	/**
+	 * 根据当前登录人查询对应的菜单数据，返回json
+	 */
+	public String findMenu(){
+		List<AuthFunction> list = service.findMenu();
+		this.java2Json(list, new String[]{"parentFunction","roles","children"});
+		return NONE;
+	}
 }
